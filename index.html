@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhrankan Chakrabarti</title>
+    <meta name="description" content="Abhrankan Chakrabarti's personal portfolio showcasing projects in mathematics, programming, and technology.">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Open Sans', Arial, sans-serif;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-theme {
+            background-color: #333;
+            color: #f4f4f4;
+        }
+        .dark-theme .container {
+            background-color: #444;
+            color: #fff;
         }
         .container {
             max-width: 800px;
@@ -28,29 +39,46 @@
             width: 150px;
             height: 150px;
         }
-        h1, h3 {
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
             margin: 10px 0;
         }
-        .connect a {
+        .connect a, .highlighted-projects a {
             color: #0066cc;
             text-decoration: none;
         }
-        .connect a:hover {
+        .connect a:hover, .highlighted-projects a:hover {
             text-decoration: underline;
         }
-        .highlighted-projects a {
-            color: #0066cc;
-            text-decoration: none;
+        .highlighted-projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
         }
-        .highlighted-projects a:hover {
-            text-decoration: underline;
+        .highlighted-projects li {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="center">
-            <img src="https://camo.githubusercontent.com/861bb4c171fadbcbc1ed691cdec46ab85fbc7b7c88e20a6de4ea2560d8371779/68747470733a2f2f692e6962622e636f2f507a4c4236666e2f494d472d32303231303632322d3133333531352d322e6a7067" alt="Profile Image" class="profile-img">
+            <img src="/storage/emulated/0/bluetooth/img_1_1717474015436.jpg" alt="Abhrankan Chakrabarti smiling" class="profile-img">
             <h1>Hello World, I'm Abhrankan Chakrabarti 👋</h1>
             <h3>A Passionate Student Exploring the Frontiers of Mathematics, Programming, and Technology</h3>
         </div>
@@ -78,5 +106,14 @@
             <li><a href="https://github.com/Abhrankan-Chakrabarti/llama_cpp_chatbot">Llama_CPP Chatbot</a>: Merging the power of C++ with advanced chatbot functionalities for seamless interactions.</li>
         </ul>
     </div>
+    <footer>
+        <p>© 2024 Abhrankan Chakrabarti. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+    </script>
+    <button onclick="toggleTheme()" style="position: fixed; bottom: 20px; right: 20px;">Toggle Theme</button>
 </body>
 </html>
