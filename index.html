@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhrankan Chakrabarti</title>
+    <title>Abhrankan Chakrabarti - Portfolio</title>
     <meta name="description" content="Abhrankan Chakrabarti's personal portfolio showcasing projects in mathematics, programming, and technology.">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
-        body {
-            font-family: 'Open Sans', Arial, sans-serif;
-            line-height: 1.8;
+        body, html {
             margin: 0;
             padding: 0;
+            font-family: 'Open Sans', sans-serif;
             background-color: #f4f4f4;
             color: #333;
-            transition: background-color 0.3s, color 0.3s;
         }
         /* Existing styles for body, .dark-theme, etc. */
 
@@ -49,17 +48,23 @@
 }
 
 /* Toggle Button Style for Better Visibility */
-/* Adjust button positioning */
 .toggle-theme-btn {
     position: fixed;
-    bottom: 80px; /* Higher up to avoid overlapping the footer */
+    bottom: 20px;
     right: 20px;
-    padding: 10px;
+    padding: 10px 15px;
     background-color: #0066cc;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.toggle-theme-btn:hover {
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+    background-color: #0057a3; /* Darken the button color on hover */
 }
 
 /* Add extra padding to the bottom of the body */
@@ -69,7 +74,7 @@ body {
 
 /* Light theme button style */
 .dark-theme .toggle-theme-btn {
-    background-color: #0057a3; /* Darker background for contrast in dark mode */
+    background-color: #555; /* Darker button background in dark mode */
 }
         .container {
             max-width: 800px;
@@ -102,6 +107,12 @@ body {
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
         }
+.highlighted-projects {
+            margin-bottom: 20px;
+        }
+        .highlighted-projects:hover {
+            background-color: #eee;
+        }
         .highlighted-projects li {
             background-color: #eee;
             padding: 10px;
@@ -125,7 +136,7 @@ body {
 <body>
     <div class="container">
         <div class="center">
-            <img src="https://camo.githubusercontent.com/861bb4c171fadbcbc1ed691cdec46ab85fbc7b7c88e20a6de4ea2560d8371779/68747470733a2f2f692e6962622e636f2f507a4c4236666e2f494d472d32303231303632322d3133333531352d322e6a7067" alt="Abhrankan Chakrabarti smiling" class="profile-img">
+            <img src="/storage/emulated/0/bluetooth/img_1_1717474015436.jpg" alt="Abhrankan Chakrabarti smiling" class="profile-img">
             <h1>Hello World, I'm Abhrankan Chakrabarti 👋</h1>
             <h3>A Passionate Student Exploring the Frontiers of Mathematics, Programming, and Technology</h3>
         </div>
@@ -158,9 +169,20 @@ body {
     </footer>
     <script>
         function toggleTheme() {
-            document.body.classList.toggle('dark-theme');
-        }
+    const body = document.body;
+    body.classList.toggle('dark-theme'); // Toggle the dark theme
+    
+    // Select the icon inside the theme toggle button
+    const themeButtonIcon = document.querySelector('.toggle-theme-btn i');
+    
+    // Check if dark theme is active and change icon accordingly
+    if (body.classList.contains('dark-theme')) {
+        themeButtonIcon.className = 'fas fa-sun'; // Change to sun icon for dark mode
+    } else {
+        themeButtonIcon.className = 'fas fa-moon'; // Change back to moon icon for light mode
+    }
+}
     </script>
-    <button onclick="toggleTheme()" class="toggle-theme-btn">Toggle Theme</button>
+    <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
 </body>
 </html>
