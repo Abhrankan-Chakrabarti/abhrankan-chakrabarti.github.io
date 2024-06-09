@@ -118,6 +118,78 @@ body {
             padding: 10px;
             border-radius: 5px;
         }
+ 
+        /* Stylingthe last h2 tag by giving margin bottom */
+        .progress-bar-container:not(:last-child) {
+            margin-bottom: 20px;
+        }
+ 
+        /* Styling the h2 tag by giving color, 
+        letter spacing, font-size etc.*/
+        .progress-bar-container h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+
+        .dark-theme .progress-bar-container h2 {
+            color: #eee;
+        }
+ 
+        /* Styling the border and box
+        effect of the progress bar*/
+        .progress-bar {
+            width: 250px;
+            height: 5px;
+            margin-top: 10px;
+            border: 1px solid #565656;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgb(245, 159, 0);
+        }
+ 
+        /* Stylingthe background color of each 
+        animation and border radius */
+        .percentage {
+            display: block;
+            height: 100%;
+            background-color: orange;
+            border-radius: 5px;
+            animation: progress 1500ms ease-in 1;
+        }
+ 
+        /* Assigning width of each languages*/
+        .c {
+            width: 85%;
+        }
+ 
+        .java {
+            width: 70%;
+        }
+ 
+        .python {
+            width: 55%;
+        }
+ 
+        .html {
+            width: 75%;
+        }
+ 
+        .css {
+            width: 65%;
+        }
+ 
+        .javascript {
+            width: 55%;
+        }
+ 
+        /* Animating the progress bar by 
+        initially starting from 0*/
+        @keyframes progress {
+            from {
+                width: 0;
+            }
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -131,43 +203,6 @@ body {
                 align-items: center;
             }
         }
-.skills {
-    margin: 20px 0;
-}
-
-.skills h2 {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 15px;
-}
-
-.skill {
-    margin-bottom: 10px;
-}
-
-.skill label {
-    font-weight: 600;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.skill-bar {
-    background-color: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.skill-percentage {
-    background-color: #0066cc;
-    height: 20px;
-    border-radius: 5px;
-    transition: width 2s ease;
-    width: 0; /* Initial state */
-}
-
-/* Animation trigger */
-.skill-bar:hover .skill-percentage {
-    width: var(--skill-percentage); /* Width set in inline style */
-}
     </style>
 </head>
 <body>
@@ -203,35 +238,54 @@ body {
             <li><a href="https://github.com/Abhrankan-Chakrabarti/ComplexCalculator">Complex Calculator</a>: Navigating the realm of complex numbers with precision and ease.</li>
             <li><a href="https://github.com/Abhrankan-Chakrabarti/java-math-utils">Java Math Utils</a>: A collection of utility functions in Java that serve as the backbone for various mathematical computations.</li>
             <li><a href="https://github.com/Abhrankan-Chakrabarti/llama_cpp_chatbot">Llama_CPP Chatbot</a>: Merging the power of C++ with advanced chatbot functionalities for seamless interactions.</li>
-        </ul>
-        <section class="skills">
+    </ul>
+    <section class="skills">
     <h2>My Skills</h2>
-    <div class="skill">
-        <label>Python</label>
-        <div class="skill-bar"><div class="skill-percentage" style="width: 90%;"></div></div>
+    <div class="skills">
+        <div class="progress-bar-container">
+            <h2>C/C++</h2>
+            <div class="progress-bar">
+                <span class="percentage c"></span>
+            </div>
+        </div>
+ 
+        <div class="progress-bar-container">
+            <h2>Java</h2>
+            <div class="progress-bar">
+                <span class="percentage java"></span>
+            </div>
+        </div>
+ 
+        <div class="progress-bar-container">
+            <h2>Python</h2>
+            <div class="progress-bar">
+                <span class="percentage python"></span>
+            </div>
+        </div>
+ 
+        <div class="progress-bar-container">
+            <h2>HTML</h2>
+            <div class="progress-bar">
+                <span class="percentage html"></span>
+            </div>
+        </div>
+ 
+        <div class="progress-bar-container">
+            <h2>CSS</h2>
+            <div class="progress-bar">
+                <span class="percentage css"></span>
+            </div>
+        </div>
+ 
+        <div class="progress-bar-container">
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+                <span class="percentage javascript"></span>
+            </div>
+        </div>
     </div>
-    <div class="skill">
-        <label>JavaScript</label>
-        <div class="skill-bar"><div class="skill-percentage" style="width: 80%;"></div></div>
-    </div>
-    <div class="skill">
-        <label>HTML & CSS</label>
-        <div class="skill-bar"><div class="skill-percentage" style="width: 85%;"></div></div>
-    </div>
-    <div class="skill">
-    <label>C</label>
-    <div class="skill-bar"><div class="skill-percentage" style="width: 75%;"></div></div>
-</div>
-<div class="skill">
-    <label>C++</label>
-    <div class="skill-bar"><div class="skill-percentage" style="width: 80%;"></div></div>
-</div>
-<div class="skill">
-    <label>Java</label>
-    <div class="skill-bar"><div class="skill-percentage" style="width: 85%;"></div></div>
-</div>
-</section>
-        </main>
+    </section>
+    </main>
     <footer>
         <p>© 2024 Abhrankan Chakrabarti. All rights reserved.</p>
     </footer>
@@ -251,19 +305,6 @@ body {
         themeButtonIcon.className = 'fas fa-moon'; // Change back to moon icon for light mode
     }
 }
-document.addEventListener('DOMContentLoaded', () => {
-    let observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.querySelector('.skill-percentage').style.width = entry.target.querySelector('.skill-percentage').getAttribute('style').width;
-            }
-        });
-    }, {threshold: 0.6});
-
-    document.querySelectorAll('.skill').forEach(skill => {
-        observer.observe(skill);
-    });
-});
     </script>
 </body>
 </html>
