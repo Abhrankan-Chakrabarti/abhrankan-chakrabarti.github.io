@@ -131,12 +131,51 @@ body {
                 align-items: center;
             }
         }
+.skills {
+    margin: 20px 0;
+}
+
+.skills h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    background-color: #0066cc;
+    height: 20px;
+    border-radius: 5px;
+    transition: width 2s ease;
+    width: 0; /* Initial state */
+}
+
+/* Animation trigger */
+.skill-bar:hover .skill-percentage {
+    width: var(--skill-percentage); /* Width set in inline style */
+}
     </style>
 </head>
 <body>
+    <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
     <div class="container">
+        <header>
         <div class="center">
-            <img src="https://avatars.githubusercontent.com/u/76620562?v=4" alt="Abhrankan Chakrabarti smiling" class="profile-img">
+            <img src="/storage/emulated/0/bluetooth/img_1_1717474015436.jpg" alt="Abhrankan Chakrabarti smiling" class="profile-img">
             <h1>Hello World, I'm Abhrankan Chakrabarti 👋</h1>
             <h3>A Passionate Student Exploring the Frontiers of Mathematics, Programming, and Technology</h3>
         </div>
@@ -155,6 +194,8 @@ body {
         </p>
         <h3 class="center">⚡ A Glimpse into My World:</h3>
         <p class="center">Did you know? I once embarked on a mathematical odyssey to calculate the first 10,000 digits of the golden ratio! It was a journey that tested the limits of precision and my dedication to the beauty of numbers.</p>
+        </header>
+        <main>
         <h3 class="center">📚 Highlighted Projects:</h3>
         <ul class="highlighted-projects">
             <li><a href="https://github.com/Abhrankan-Chakrabarti/almost-isosceles-pythagorean-triples">Almost Isosceles Pythagorean Triples Optimizer</a>: A deep dive into a unique mathematical challenge, blending algorithmic efficiency with the elegance of number theory.</li>
@@ -163,10 +204,38 @@ body {
             <li><a href="https://github.com/Abhrankan-Chakrabarti/java-math-utils">Java Math Utils</a>: A collection of utility functions in Java that serve as the backbone for various mathematical computations.</li>
             <li><a href="https://github.com/Abhrankan-Chakrabarti/llama_cpp_chatbot">Llama_CPP Chatbot</a>: Merging the power of C++ with advanced chatbot functionalities for seamless interactions.</li>
         </ul>
+        <section class="skills">
+    <h2>My Skills</h2>
+    <div class="skill">
+        <label>Python</label>
+        <div class="skill-bar"><div class="skill-percentage" style="width: 90%;"></div></div>
     </div>
+    <div class="skill">
+        <label>JavaScript</label>
+        <div class="skill-bar"><div class="skill-percentage" style="width: 80%;"></div></div>
+    </div>
+    <div class="skill">
+        <label>HTML & CSS</label>
+        <div class="skill-bar"><div class="skill-percentage" style="width: 85%;"></div></div>
+    </div>
+    <div class="skill">
+    <label>C</label>
+    <div class="skill-bar"><div class="skill-percentage" style="width: 75%;"></div></div>
+</div>
+<div class="skill">
+    <label>C++</label>
+    <div class="skill-bar"><div class="skill-percentage" style="width: 80%;"></div></div>
+</div>
+<div class="skill">
+    <label>Java</label>
+    <div class="skill-bar"><div class="skill-percentage" style="width: 85%;"></div></div>
+</div>
+</section>
+        </main>
     <footer>
         <p>© 2024 Abhrankan Chakrabarti. All rights reserved.</p>
     </footer>
+    </div>
     <script>
         function toggleTheme() {
     const body = document.body;
@@ -182,7 +251,19 @@ body {
         themeButtonIcon.className = 'fas fa-moon'; // Change back to moon icon for light mode
     }
 }
+document.addEventListener('DOMContentLoaded', () => {
+    let observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.querySelector('.skill-percentage').style.width = entry.target.querySelector('.skill-percentage').getAttribute('style').width;
+            }
+        });
+    }, {threshold: 0.6});
+
+    document.querySelectorAll('.skill').forEach(skill => {
+        observer.observe(skill);
+    });
+});
     </script>
-    <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
 </body>
 </html>
