@@ -1,11 +1,12 @@
-body, html {
-            margin: 0;
-            padding: 0;
-            font-family: 'Open Sans', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        /* Existing styles for body, .dark-theme, etc. */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Existing styles for body, .dark-theme, etc. */
 
 /* Improved dark theme styles for better readability */
 .dark-theme {
@@ -29,11 +30,13 @@ body, html {
 }
 
 /* Ensure links are visible and attractive in dark mode */
-.dark-theme .connect a, .dark-theme .highlighted-projects a {
+.dark-theme .connect a,
+.dark-theme .highlighted-projects a {
     color: #88aaff; /* Brighter link color for dark mode */
 }
 
-.dark-theme .connect a:hover, .dark-theme .highlighted-projects a:hover {
+.dark-theme .connect a:hover,
+.dark-theme .highlighted-projects a:hover {
     color: #bbccff; /* Lighter color on hover for better visibility */
 }
 
@@ -49,7 +52,7 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .toggle-theme-btn:hover {
@@ -66,133 +69,137 @@ body {
 .dark-theme .toggle-theme-btn {
     background-color: #555; /* Darker button background in dark mode */
 }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .center {
-            text-align: center;
-        }
-        .profile-img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        h1, h2, h3 {
-            font-family: 'Roboto', sans-serif;
-            margin: 10px 0;
-        }
-        .connect a, .highlighted-projects a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .connect a:hover, .highlighted-projects a:hover {
-            text-decoration: underline;
-        }
-        .highlighted-projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-        }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.center {
+    text-align: center;
+}
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+h1,
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+.connect a,
+.highlighted-projects a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.connect a:hover,
+.highlighted-projects a:hover {
+    text-decoration: underline;
+}
 .highlighted-projects {
-            margin-bottom: 20px;
-        }
-        .highlighted-projects:hover {
-            background-color: #eee;
-        }
-        .highlighted-projects li {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-        }
- 
-        /* Stylingthe last h2 tag by giving margin bottom */
-        .progress-bar-container:not(:last-child) {
-            margin-bottom: 20px;
-        }
- 
-        /* Styling the h2 tag by giving color, 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.highlighted-projects {
+    margin-bottom: 20px;
+}
+.highlighted-projects:hover {
+    background-color: #eee;
+}
+.highlighted-projects li {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* Styling the h2 tag by giving color, 
         letter spacing, font-size etc.*/
-        .progress-bar-container h2 {
-            font-family: Arial, Helvetica, sans-serif;
-            color: #333;
-            letter-spacing: 1px;
-            font-size: 20px;
-        }
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
 
-        .dark-theme .progress-bar-container h2 {
-            color: #eee;
-        }
- 
-        /* Styling the border and box
+.dark-theme .progress-bar-container h2 {
+    color: #eee;
+}
+
+/* Styling the border and box
         effect of the progress bar*/
-        .progress-bar {
-            width: 250px;
-            height: 5px;
-            margin-top: 10px;
-            border: 1px solid #565656;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgb(245, 159, 0);
-        }
- 
-        /* Styling the background color of each 
-        animation and border radius */
-        .percentage {
-            display: block;
-            height: 100%;
-            background-color: orange;
-            border-radius: 5px;
-        }
+.progress-bar {
+    width: 250px;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+}
 
-        .percentage.active {
-            animation: progress 1500ms ease-in 1;
-        }
- 
-        /* Assigning width of each languages*/
-        .c {
-            width: 85%;
-        }
- 
-        .java {
-            width: 70%;
-        }
- 
-        .python {
-            width: 55%;
-        }
- 
-        .html {
-            width: 75%;
-        }
- 
-        .css {
-            width: 65%;
-        }
- 
-        .javascript {
-            width: 55%;
-        }
- 
-        /* Animating the progress bar by 
+/* Styling the background color of each 
+        animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.percentage.active {
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.java {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.html {
+    width: 75%;
+}
+
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+/* Animating the progress bar by 
         initially starting from 0*/
-        @keyframes progress {
-            from {
-                width: 0;
-            }
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-            background-color: #fff;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-        }
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
