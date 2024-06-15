@@ -15,8 +15,8 @@
         <option value="fibonacci">Fibonacci Sequence</option>
     </select>
     <button onclick="toggleTheme();toggleEditorTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
-    <button onclick="save('codeInput', 'editor.getValue()', 'code.js')">Save Code</button>
-    <button onclick="save('output', 'document.getElementById(\'output\').textContent', 'output.txt')">Save Output</button>
+    <button onclick="save('editor.getValue()', 'text/javascript', 'code.js')">Save Code</button>
+    <button onclick="save('document.getElementById(\'output\').textContent', 'text/plain', 'output.txt')">Save Output</button>
 
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
