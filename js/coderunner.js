@@ -41,9 +41,9 @@ function runCode() {
     }
 }
 
-function save(id, attribute, file) {
-    const code = eval(attribute);
-    const blob = new Blob([code], { type: 'text/javascript' });
+function save(string, type, file) {
+    const text = eval(string);
+    const blob = new Blob([text], { type: type });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
