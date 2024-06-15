@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Runner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/toggletheme.css" />
+    <link rel="stylesheet" href="css/coderunner.css" />
+</head>
+<body>
+    <h1>Code Runner</h1>
+    <select id="samplePrograms" onchange="loadSample()">
+        <option value="">Select a sample program</option>
+        <option value="helloWorld">Hello World</option>
+        <option value="sumNumbers">Sum of Two Numbers</option>
+        <option value="fibonacci">Fibonacci Sequence</option>
+    </select>
+    <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
+    <textarea id="codeInput">console.log('Hello, world!');</textarea>
+    <input type="file" id="fileInput">
+    <button onclick="loadFile()">Load File</button>
+    <button onclick="runCode()">Run Code</button>
+    <pre id="output"></pre>
+    <script type="text/javascript" src="js/toggletheme.js"></script>
+    <script type="text/javascript" src="js/coderunner.js"></script>
+</body>
+</html>
