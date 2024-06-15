@@ -14,10 +14,19 @@
         <option value="sumNumbers">Sum of Two Numbers</option>
         <option value="fibonacci">Fibonacci Sequence</option>
     </select>
-    <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
-    <button onclick="save('codeInput', 'value', 'code.js')">Save Code</button>
-    <button onclick="save('output', 'textContent', 'output.txt')">Save Output</button>
-    <textarea id="codeInput">console.log('Hello, world!');</textarea>
+    <button onclick="toggleTheme();toggleEditorTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
+    <button onclick="save('codeInput', 'editor.getValue()', 'code.js')">Save Code</button>
+    <button onclick="save('output', 'document.getElementById(\'output\').textContent', 'output.txt')">Save Output</button>
+
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/base16-light.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/base16-dark.min.css"></link>
+
+    <textarea id="codeInput" name="codeInput">console.log('Hello, world!');</textarea>
+
     <input type="file" id="fileInput">
     <button onclick="loadFile()">Load File</button>
     <button onclick="runCode()">Run Code</button>
