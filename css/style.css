@@ -8,12 +8,6 @@ html {
 }
 /* Existing styles for body, .dark-theme, etc. */
 
-/* Improved dark theme styles for better readability */
-.dark-theme {
-    background-color: #333;
-    color: #e4e4e4; /* Lighter text color for better contrast */
-}
-
 .dark-theme .container {
     background-color: #444; /* Slightly lighter background for containers */
     color: #f4f4f4;
@@ -40,35 +34,11 @@ html {
     color: #bbccff; /* Lighter color on hover for better visibility */
 }
 
-/* Toggle Button Style for Better Visibility */
-.toggle-theme-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.toggle-theme-btn:hover {
-    transform: scale(1.1); /* Slightly enlarge button on hover */
-    background-color: #0057a3; /* Darken the button color on hover */
-}
-
 /* Add extra padding to the bottom of the body */
 body {
     padding-bottom: 80px; /* Ensures content is not obscured by the button */
 }
 
-/* Light theme button style */
-.dark-theme .toggle-theme-btn {
-    background-color: #555; /* Darker button background in dark mode */
-}
 .container {
     max-width: 800px;
     margin: 20px auto;
