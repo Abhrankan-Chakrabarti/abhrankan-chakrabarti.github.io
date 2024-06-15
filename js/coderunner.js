@@ -1,6 +1,5 @@
 async function loadSample() {
     const selectedSample = document.getElementById('samplePrograms').value;
-    const codeInput = document.getElementById('codeInput');
     if (selectedSample) {
         try {
             const response = await fetch(`samples/${selectedSample}.js`);
@@ -8,16 +7,16 @@ async function loadSample() {
                 throw new Error('Network response was not ok');
             }
             const sampleCode = await response.text();
-            codeInput.value = sampleCode;
+            editor.setValue(sampleCode);
         } catch (error) {
             console.error('Error fetching the sample code:', error);
-            codeInput.value = 'Error loading sample code.';
+            editor.setValue('Error loading sample code.');
         }
     }
 }
 
 function runCode() {
-    const code = document.getElementById('codeInput').value;
+    const code = editor.getValue();
     const outputElement = document.getElementById('output');
     outputElement.textContent = ''; // Clear previous output
     
@@ -43,7 +42,7 @@ function runCode() {
 }
 
 function save(id, attribute, file) {
-    const code = document.getElementById(id)[attribute];
+    const code = eval(attribute);
     const blob = new Blob([code], { type: 'text/javascript' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -61,10 +60,25 @@ function loadFile() {
     if (file) {
         const reader = new FileReader();
         reader.onload = function (event) {
-            document.getElementById("codeInput").value = event.target.result;
+            editor.setValue(event.target.result);
         };
         reader.readAsText(file);
     } else {
         alert("No file selected");
+    }
+}
+
+var editor = CodeMirror.fromTextArea(document.getElementById('codeInput'), {
+    lineNumbers: true,
+    mode: 'javascript',
+    theme: 'base16-light',
+});
+
+function toggleEditorTheme() {
+    const body = document.body;
+    if (body.classList.contains("dark-theme")) {
+        editor.setOption('theme', 'base16-dark');
+    } else {
+        editor.setOption('theme', 'base16-light');
     }
 }
