@@ -1,5 +1,5 @@
 function generateAlmostIsoscelesPythagoreanTriples(count) {
-    let x = 1, y = 1;
+    let x = 7, y = 5;
     const triples = [];
     
     for (let i = 0; i < count; i++) {
