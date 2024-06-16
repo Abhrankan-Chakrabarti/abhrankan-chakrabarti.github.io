@@ -54,17 +54,14 @@ function save(string, type, file) {
     URL.revokeObjectURL(url);
 }
 
-function loadFile() {
-    const fileInput = document.getElementById("fileInput");
-    const file = fileInput.files[0];
+function loadFile(event) {
+    const file = event.target.files[0];
     if (file) {
         const reader = new FileReader();
-        reader.onload = function (event) {
-            editor.setValue(event.target.result);
+        reader.onload = function (e) {
+            editor.setValue(e.target.result);
         };
         reader.readAsText(file);
-    } else {
-        alert("No file selected");
     }
 }
 
