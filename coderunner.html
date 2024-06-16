@@ -27,8 +27,7 @@
 
     <textarea id="codeInput" name="codeInput">console.log('Hello, world!');</textarea>
 
-    <input type="file" id="fileInput">
-    <button onclick="loadFile()">Load File</button>
+    <input type="file" id="fileInput" accept=".js" onchange="loadFile(event)">
     <button onclick="runCode()">Run Code</button>
     <pre id="output"></pre>
     <script type="text/javascript" src="js/toggletheme.js"></script>
