@@ -1,17 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 20px;
+    color: #333;
 }
 h1 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333;
-}
-.dark-theme h1 {
-    color: #ccc;
+    color: #007bff; /* Blue */
 }
 #codeInput {
     font-size: 16px;
@@ -36,23 +34,19 @@ button,
 input,
 select {
     padding: 10px 11px;
-    background-color: #333;
+    margin-top: 10px;
+    background-color: #28a745; /* Green */
     color: #fff;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
 }
 .dark-theme button,
 .dark-theme input,
 .dark-theme select {
-    background-color: #ccc;
     color: #000;
 }
 button:hover {
-    background-color: #555;
-}
-.dark-theme button:hover {
-    background-color: #aaa;
+    background-color: #218838; /* Darker Green */
 }
 pre {
     background-color: #fff;
