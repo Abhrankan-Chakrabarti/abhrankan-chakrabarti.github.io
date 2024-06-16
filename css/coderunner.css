@@ -51,6 +51,9 @@ select {
 button:hover {
     background-color: #555;
 }
+.dark-theme button:hover {
+    background-color: #aaa;
+}
 pre {
     background-color: #fff;
     padding: 10px;
