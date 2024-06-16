@@ -14,7 +14,11 @@ function* generateAlmostIsoscelesPythagoreanTriples() {
 }
 
 const generator = generateAlmostIsoscelesPythagoreanTriples();
-const triples = Array.from({ length: 5 }, () => generator.next().value);
 
-console.log(triples);
-// Output: [[3, 4, 5], [20, 21, 29], [119, 120, 169], [696, 697, 985], [4059, 4060, 5741]]
+// Print the first 5 triples
+let count = 0;
+for (const triple of generator) {
+    console.log(triple);
+    count++;
+    if (count === 5) break;
+}
