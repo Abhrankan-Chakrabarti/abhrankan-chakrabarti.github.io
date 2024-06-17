@@ -79,3 +79,12 @@ function toggleEditorTheme() {
         editor.setOption('theme', 'base16-light');
     }
 }
+
+function toggleLogoTheme() {
+    const body = document.body;
+    if (body.classList.contains("dark-theme")) {
+        document.getElementById('logo').src="image.png";
+    } else {
+        document.getElementById('logo').src="logo.png";
+    }
+}
