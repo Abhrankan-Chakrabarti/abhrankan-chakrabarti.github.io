@@ -19,7 +19,7 @@ Catalan numbers are a sequence of natural numbers that have many applications in
 ### Series Representation
 The series representation used in my algorithm is:
 
-![\pi = 3 + 6 \sum_{n=1}^{\infty} \frac{(2n - 1) \cdot C_n}{(2n + 1) \cdot 16^n}]
+<img src="https://render.githubusercontent.com/render/math?math=\pi = 3 + 6 \sum_{n=1}^{\infty} \frac{(2n - 1) \cdot C_n}{(2n + 1) \cdot 16^n}">
 
 Where ![C_n] is the nth Catalan number.
 
