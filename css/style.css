@@ -172,6 +172,11 @@ h3 {
     margin-top: 20px;
 }
 
+.dark-theme #blog {
+    background-color: #060606;
+    border-top: 1px solid #333;
+}
+
 .blog-post {
     margin-bottom: 20px;
 }
@@ -193,6 +198,10 @@ h3 {
 .blog-post .date {
     font-size: 14px;
     color: #999;
+}
+
+.dark-theme .blog-post .date {
+    color: #666;
 }
 
 .blog-post .summary {
