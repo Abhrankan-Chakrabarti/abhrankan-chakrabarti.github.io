@@ -19,9 +19,9 @@ Catalan numbers are a sequence of natural numbers that have many applications in
 ### Series Representation
 The series representation used in my algorithm is:
 
-<img src="https://render.githubusercontent.com/render/math?math=%5Cpi%20%3D%203%20%2B%206%20%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B%282n%20-%201%29%20%5Ccdot%20C_n%7D%7B%282n%20%2B%201%29%20%5Ccdot%2016%5En%7D">
+![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cpi%20%3D%203%20%2B%206%20%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B%282n%20-%201%29%20%5Ccdot%20C_n%7D%7B%282n%20%2B%201%29%20%5Ccdot%2016%5En%7D)
 
-Where ![C_n](https://render.githubusercontent.com/render/math?math=C_n) is the nth Catalan number.
+Where ![C_n](http://www.sciweavers.org/tex2img.php?eq=C_n) is the nth Catalan number.
 
 ### Implementation
 Here is the Python code for the algorithm:
