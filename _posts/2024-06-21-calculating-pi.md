@@ -20,7 +20,15 @@ with ![C_0 = 1](https://latex.codecogs.com/svg.latex?C_0%20%3D%201).
 
 ## The Algorithm
 ### Series Representation
-The algorithm calculates the digits of π using the series representation:
+The series representation for π used in this algorithm is derived from the inverse sine function:
+
+![\pi = 6 arcsin(0.5)](https://latex.codecogs.com/svg.latex?%5Cpi%20%3D%206%20%5Carcsin%280.5%29)
+
+By expanding ![arcsin(0.5)](https://latex.codecogs.com/svg.latex?%5Carcsin%280.5%29) as a series, we get:
+
+![series](https://latex.codecogs.com/svg.latex?%5Carcsin%28x%29%20%3D%20x%20%2B%20%5Cfrac%7B1%7D%7B2%7D%20%5Cfrac%7Bx%5E3%7D%7B3%7D%20%2B%20%5Cfrac%7B1%20%5Ccdot%203%7D%7B2%20%5Ccdot%204%7D%20%5Cfrac%7Bx%5E5%7D%7B5%7D%20%2B%20%5Cfrac%7B1%20%5Ccdot%203%20%5Ccdot%205%7D%7B2%20%5Ccdot%204%20%5Ccdot%206%7D%20%5Cfrac%7Bx%5E7%7D%7B7%7D%20%2B%20%5Ccdots)
+
+Substituting ![x = 0.5](https://latex.codecogs.com/svg.latex?x%20%3D%200.5) and multiplying by 6, we derive the series:
 
 ![series](https://latex.codecogs.com/svg.latex?%5Cpi%20%3D%203%20%2B%206%20%5Csum_%7Bn%3D1%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B%282n%20-%201%29%20%5Ccdot%20C_%7Bn-1%7D%7D%7B%282n%20%2B%201%29%20%5Ccdot%2016%5En%7D)
 
