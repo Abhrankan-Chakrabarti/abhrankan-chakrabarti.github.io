@@ -24,7 +24,7 @@ The series representation for π used in this algorithm is derived from the inve
 
 ![\pi = 6 arcsin(0.5)](https://latex.codecogs.com/svg.latex?%5Cpi%20%3D%206%20%5Carcsin%280.5%29)
 
-By expanding ![arcsin(0.5)](https://latex.codecogs.com/svg.latex?%5Carcsin%280.5%29) as a series, we get:
+By expanding ![arcsin(x)](https://latex.codecogs.com/svg.latex?%5Carcsin%28x%29) as a series, we get:
 
 ![series](https://latex.codecogs.com/svg.latex?%5Carcsin%28x%29%20%3D%20%5Csum_%7Bn%3D0%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B%282n%29%21%7D%7B4%5En%20%28n%21%29%5E2%20%282n%20%2B%201%29%7D%20x%5E%7B2n%20%2B%201%7D)
 
