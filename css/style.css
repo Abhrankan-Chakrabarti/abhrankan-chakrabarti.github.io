@@ -77,9 +77,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-}
-.highlighted-projects {
     margin-bottom: 20px;
+    padding: 20px;
 }
 .highlighted-projects:hover {
     background-color: #eee;
