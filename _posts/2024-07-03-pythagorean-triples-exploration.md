@@ -17,17 +17,17 @@ Almost isosceles Pythagorean triples are a special subset where the two smaller 
 ## Generating Almost Isosceles Pythagorean Triples
 There is a fascinating pattern to generate these triples. Starting from the initial values x = 7 and y = 5, we use the following recursive formulas:
 
-[Formula 1](https://latex.codecogs.com/svg.latex?x%27%20%3D%203x%20%2B%204y)
+![Formula 1](https://latex.codecogs.com/svg.latex?x%27%20%3D%203x%20%2B%204y)
 
-[Formula 2](https://latex.codecogs.com/svg.latex?y%27%20%3D%202x%20%2B%203y)
+![Formula 2](https://latex.codecogs.com/svg.latex?y%27%20%3D%202x%20%2B%203y)
 
 Then, we calculate a, b, and c as:
 
-[Calculation of a](https://latex.codecogs.com/svg.latex?a%20%3D%20%5Cfrac%7Bx%20-%201%7D%7B2%7D)
+![Calculation of a](https://latex.codecogs.com/svg.latex?a%20%3D%20%5Cfrac%7Bx%20-%201%7D%7B2%7D)
 
-[Calculation of b](https://latex.codecogs.com/svg.latex?b%20%3D%20a%20%2B%201)
+![Calculation of b](https://latex.codecogs.com/svg.latex?b%20%3D%20a%20%2B%201)
 
-[Calculation of c](https://latex.codecogs.com/svg.latex?c%20%3D%20y)
+![Calculation of c](https://latex.codecogs.com/svg.latex?c%20%3D%20y)
 
 ## Example Calculation
 Starting with x = 7 and y = 5: [ x' = 3(7) + 4(5) = 21 + 20 = 41 ] [ y' = 2(7) + 3(5) = 14 + 15 = 29 ] [ a = \frac{41 - 1}{2} = 20 ] [ b = 20 + 1 = 21 ] [ c = 29 ] Thus, we get the triple (20, 21, 29).
