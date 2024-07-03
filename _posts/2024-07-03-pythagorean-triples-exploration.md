@@ -30,7 +30,19 @@ Then, we calculate a, b, and c as:
 ![Calculation of c](https://latex.codecogs.com/svg.latex?c%20%3D%20y)
 
 ## Example Calculation
-Starting with x = 7 and y = 5: [ x' = 3(7) + 4(5) = 21 + 20 = 41 ] [ y' = 2(7) + 3(5) = 14 + 15 = 29 ] [ a = \frac{41 - 1}{2} = 20 ] [ b = 20 + 1 = 21 ] [ c = 29 ] Thus, we get the triple (20, 21, 29).
+Starting with x = 7 and y = 5:
+
+![Formula 1](https://latex.codecogs.com/svg.latex?x%27%20%3D%203%287%29%20%2B%204%285%29%20%3D%2021%20%2B%2020%20%3D%2041)
+
+![Formula 2](https://latex.codecogs.com/svg.latex?y%27%20%3D%202%287%29%20%2B%203%285%29%20%3D%2014%20%2B%2015%20%3D%2029)
+
+![Calculation of a](https://latex.codecogs.com/svg.latex?a%20%3D%20%5Cfrac%7B41%20-%201%7D%7B2%7D%20%3D%2020)
+
+![Calculation of b](https://latex.codecogs.com/svg.latex?b%20%3D%2020%20%2B%201%20%3D%2021)
+
+![Calculation of c](https://latex.codecogs.com/svg.latex?c%20%3D%2029)
+
+Thus, we get the triple (20, 21, 29).
 
 ## Applications and Significance
 Almost isosceles Pythagorean triples have applications in various fields such as number theory, geometry, and even computer algorithms. Their unique properties make them an interesting subject for research and exploration.
