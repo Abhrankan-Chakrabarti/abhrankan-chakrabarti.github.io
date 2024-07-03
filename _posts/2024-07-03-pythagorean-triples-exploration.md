@@ -15,7 +15,19 @@ Pythagorean triples are sets of three integers (a, b, c) that satisfy the equati
 Almost isosceles Pythagorean triples are a special subset where the two smaller numbers differ by one. For example, (20, 21, 29) is an almost isosceles Pythagorean triple because (20² + 21² = 29²).
 
 ## Generating Almost Isosceles Pythagorean Triples
-There is a fascinating pattern to generate these triples. Starting from the initial values x = 7 and y = 5, we use the following recursive formulas: [ x' = 3x + 4y ] [ y' = 2x + 3y ] Then, we calculate a, b, and c as: [ a = \frac{x - 1}{2} ] [ b = a + 1 ] [ c = y ]
+There is a fascinating pattern to generate these triples. Starting from the initial values x = 7 and y = 5, we use the following recursive formulas:
+
+[Formula 1](https://latex.codecogs.com/svg.latex?x%27%20%3D%203x%20%2B%204y)
+
+[Formula 2](https://latex.codecogs.com/svg.latex?y%27%20%3D%202x%20%2B%203y)
+
+Then, we calculate a, b, and c as:
+
+[Calculation of a](https://latex.codecogs.com/svg.latex?a%20%3D%20%5Cfrac%7Bx%20-%201%7D%7B2%7D)
+
+[Calculation of b](https://latex.codecogs.com/svg.latex?b%20%3D%20a%20%2B%201)
+
+[Calculation of c](https://latex.codecogs.com/svg.latex?c%20%3D%20y)
 
 ## Example Calculation
 Starting with x = 7 and y = 5: [ x' = 3(7) + 4(5) = 21 + 20 = 41 ] [ y' = 2(7) + 3(5) = 14 + 15 = 29 ] [ a = \frac{41 - 1}{2} = 20 ] [ b = 20 + 1 = 21 ] [ c = 29 ] Thus, we get the triple (20, 21, 29).
