@@ -23,6 +23,18 @@ Greek mythology is a rich tapestry of stories and characters that have captivate
 - **Visual**: ![Hera](/assets/images/hera.webp)
 - **Myths**: Hera is often portrayed as jealous and vengeful, particularly towards Zeus's lovers and offspring. She played a significant role in the myths of Hercules and the Trojan War.
 
+**Poseidon**:
+- **Role**: God of the sea, earthquakes, and horses.
+- **Symbols**: Trident, horse, dolphin.
+- **Visual**: ![Poseidon](/assets/images/poseidon.webp)
+- **Myths**: Poseidon's wrath and benevolence are themes in many myths, such as the Odyssey, where he torments Odysseus, and the founding of Athens, where he contests with Athena.
+
+**Athena**:
+- **Role**: Goddess of wisdom, warfare, and crafts.
+- **Symbols**: Owl, olive tree, shield (Aegis).
+- **Visual**: ![Athena](/assets/images/athena.webp)
+- **Myths**: Athena was born from Zeus's forehead fully armored. She played key roles in myths such as the Odyssey, helping Odysseus, and in the myth of Medusa.
+
 ### Conclusion
 
 Greek mythology offers a rich tapestry of stories that continue to captivate readers and inspire countless works of art and literature. Exploring the world of Greek gods and heroes provides insights into ancient Greek culture and beliefs.
