@@ -55,6 +55,25 @@ Greek mythology is a rich tapestry of stories and characters that have captivate
 - **Visual**: ![Theseus](/assets/images/theseus.webp)
 - **Legacy**: Theseus symbolizes the unification of Attica under Athenian rule and represents qualities of intelligence and fairness.
 
+### Epic Tales and Their Meanings
+
+**The Iliad**:
+- **Author**: Traditionally attributed to Homer.
+- **Summary**: The Iliad recounts the events of the Trojan War, focusing on the hero Achilles and his conflict with Agamemnon. Key themes include honor, wrath, and the impact of war on humanity.
+- **Visual**: ![Iliad](/assets/images/iliad.webp)
+- **Significance**: This epic illustrates the values and social norms of ancient Greek society, highlighting the heroism and tragic flaws of its characters.
+
+**The Odyssey**:
+- **Author**: Traditionally attributed to Homer.
+- **Summary**: The Odyssey follows Odysseus's ten-year journey home after the Trojan War. Along the way, he encounters various challenges, including the Cyclops, Circe, and the Sirens.
+- **Visual**: ![Odyssey](/assets/images/odyssey.webp)
+- **Significance**: The Odyssey explores themes of perseverance, cleverness, and the importance of home and family. Odysseus's journey is often seen as a metaphor for the human experience.
+
+**The Myth of Prometheus**:
+- **Summary**: Prometheus, a Titan, defied Zeus by stealing fire from the gods and giving it to humanity. As punishment, he was chained to a rock where an eagle would eat his liver daily.
+- **Visual**: ![Prometheus](/assets/images/prometheus.webp)
+- **Significance**: Prometheus's story symbolizes the quest for knowledge and the consequences of defying authority. It reflects the Greek respect for intelligence and innovation, as well as the dangers of hubris.
+
 ### Conclusion
 
 Greek mythology offers a rich tapestry of stories that continue to captivate readers and inspire countless works of art and literature. Exploring the world of Greek gods and heroes provides insights into ancient Greek culture and beliefs.
