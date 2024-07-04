@@ -40,19 +40,19 @@ Greek mythology is a rich tapestry of stories and characters that have captivate
 **Hercules (Heracles)**:
 - **Parentage**: Son of Zeus and Alcmene.
 - **Famous Deeds**: Known for his incredible strength and the Twelve Labors, including slaying the Nemean Lion, capturing the Golden Hind of Artemis, and cleaning the Augean stables.
-- **Visual**: [Hercules](/assets/images/hercules.webp)
+- **Visual**: ![Hercules](/assets/images/hercules.webp)
 - **Legacy**: Hercules represents the ideal of heroism and strength, overcoming great challenges and performing feats that seemed impossible.
 
 **Perseus**:
 - **Parentage**: Son of Zeus and Danaë.
 - **Famous Deeds**: Best known for slaying the Gorgon Medusa and rescuing Andromeda from a sea monster.
-- **Visual**: [Perseus](/assets/images/perseus.webp)
+- **Visual**: ![Perseus](/assets/images/perseus.webp)
 - **Legacy**: Perseus's adventures highlight themes of bravery and cleverness, as he uses gifts from the gods, like Hermes' winged sandals and Athena's shield, to accomplish his tasks.
 
 **Theseus**:
 - **Parentage**: Son of Aegeus, king of Athens, or Poseidon.
 - **Famous Deeds**: Known for defeating the Minotaur in the labyrinth of Crete and his various adventures, including capturing the Marathonian Bull.
-- **Visual**: [Theseus](/assets/images/theseus.webp)
+- **Visual**: ![Theseus](/assets/images/theseus.webp)
 - **Legacy**: Theseus symbolizes the unification of Attica under Athenian rule and represents qualities of intelligence and fairness.
 
 ### Conclusion
