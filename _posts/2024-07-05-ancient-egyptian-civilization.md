@@ -70,7 +70,7 @@ For those interested in delving deeper into the history and culture of ancient E
 
 - **Websites**:
   - [The Ancient Egypt Site](http://www.ancient-egypt.org/)
-  - [Egyptian Museum](http://www.egyptianmuseum.gov.eg/)
+  - [Egyptian Museum - Wikipedia](https://en.wikipedia.org/wiki/Egyptian_Museum)
 
 - **Documentaries**:
   - "Planet Egypt" (History Channel)
