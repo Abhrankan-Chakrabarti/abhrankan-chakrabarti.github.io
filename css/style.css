@@ -204,6 +204,7 @@ h3 {
 }
 
 .dark-theme #sortOrder {
+    background-color: #060606;
     color: #ccc;
 }
 
