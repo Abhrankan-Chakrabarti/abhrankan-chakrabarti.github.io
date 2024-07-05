@@ -203,9 +203,21 @@ h3 {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Dark theme styles */
 .dark-theme #sortOrder {
     background-color: #060606;
     color: #ccc;
+    border-color: #444;
+}
+
+.dark-theme #sortOrder:hover {
+    background-color: #333;
+    border-color: #555;
+}
+
+.dark-theme #sortOrder:focus {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
 }
 
 .blog-post h3 {
