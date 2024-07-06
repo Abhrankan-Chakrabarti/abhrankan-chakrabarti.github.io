@@ -43,9 +43,9 @@ The history of computers is a fascinating journey that spans centuries, highligh
 
 For more detailed information on the history of computers, check out these resources:
 
-- [Computer History Museum](https://www.computerhistory.org/)
-- [History of Computing by Britannica](https://www.britannica.com/technology/history-of-computing)
-- [The Turing Archive](http://www.turingarchive.org/)
+- [Computer History Museum](https://www.computerhistory.org)
+- [Explain That Stuff: History of Computers](https://www.explainthatstuff.com/historyofcomputers.html)
+- [Computer Hope: History of Computers](https://www.computerhope.com/history/comphist.htm)
 
 ![ENIAC](/assets/images/eniac.webp)
 *ENIAC, one of the earliest electronic general-purpose computers*
