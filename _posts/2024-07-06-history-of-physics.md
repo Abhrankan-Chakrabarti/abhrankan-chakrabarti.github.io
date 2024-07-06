@@ -64,5 +64,6 @@ Physics, the fundamental science of matter, energy, and their interactions, has 
 
 For more detailed information on the history of physics, you can explore the following resources:
 - [History of Physics - Wikipedia](https://en.wikipedia.org/wiki/History_of_physics)
-- [The Physics Hypertextbook](https://physics.info/history/)
-- [Institute of Physics: History of Physics](https://www.iop.org/explore-physics/history-physics)
+- [The Story of Physics - Timeline](https://www.physicscentral.com/explore/history/timeline.cfm)
+- [Physics History Network](https://www.aip.org/history-programs/physics-history)
+- [HyperPhysics - History](http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html)
