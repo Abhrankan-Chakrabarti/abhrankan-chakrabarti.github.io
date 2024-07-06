@@ -67,8 +67,8 @@ For those interested in learning more about ancient Greece, consider the followi
   - "Greek Mythology: An Introduction" by Fritz Graf
 
 - **Websites**:
-  - [Ancient Greece - Ancient History Encyclopedia](https://www.ancient.eu/greece/)
-  - [The British Museum - Ancient Greece](https://www.britishmuseum.org/collection/galleries/ancient-greece)
+  - [Ancient Greece - World History Encyclopedia](https://www.worldhistory.org/greece/)
+  - [The Metropolitan Museum of Art - Ancient Greece](https://www.metmuseum.org/about-the-met/curatorial-departments/greek-and-roman-art)
 
 - **Documentaries**:
   - "The Greeks" (PBS)
