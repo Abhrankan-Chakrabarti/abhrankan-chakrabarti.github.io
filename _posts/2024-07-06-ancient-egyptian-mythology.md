@@ -48,7 +48,8 @@ For those interested in learning more about ancient Egyptian mythology, consider
 
 - **Websites**:
   - [Ancient Egypt - World History Encyclopedia](https://www.worldhistory.org/egypt/)
-  - [British Museum Egypt and Sudan](https://www.britishmuseum.org/collection/egypt-and-sudan)
+  - [Smithsonian National Museum of Natural History](https://naturalhistory.si.edu/collections/egyptian)
+  - [The Met - Egyptian Art](https://www.metmuseum.org/about-the-met/curatorial-departments/egyptian-art)
 
 - **Documentaries**:
   - "Egypt's Great Pyramid: The New Evidence" (PBS)
