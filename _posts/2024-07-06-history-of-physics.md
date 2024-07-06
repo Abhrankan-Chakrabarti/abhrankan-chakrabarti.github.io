@@ -66,4 +66,4 @@ For more detailed information on the history of physics, you can explore the fol
 - [History of Physics - Wikipedia](https://en.wikipedia.org/wiki/History_of_physics)
 - [AIP: History Programs](https://www.aip.org/history-programs)
 - [HyperPhysics - History](http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html)
-- [Famous Scientists: History of Physics](https://www.famousscientists.org/history-of-physics/)
+- [Institute of Physics: History of Physics](https://www.iop.org/explore-physics/history-physics)
