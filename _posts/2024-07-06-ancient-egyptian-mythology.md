@@ -48,7 +48,6 @@ For those interested in learning more about ancient Egyptian mythology, consider
 
 - **Websites**:
   - [Ancient Egypt - World History Encyclopedia](https://www.worldhistory.org/egypt/)
-  - [Smithsonian National Museum of Natural History](https://naturalhistory.si.edu/collections/egyptian)
   - [The Met - Egyptian Art](https://www.metmuseum.org/about-the-met/curatorial-departments/egyptian-art)
 
 - **Documentaries**:
