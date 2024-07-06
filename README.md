@@ -26,62 +26,62 @@ Did you know? I once embarked on a mathematical odyssey to calculate the first 1
 
 ## 📚 Blog
 
-### [Calculating π with Catalan Numbers: A Novel Approach](/mathematics/algorithms/2024/06/21/calculating-pi.html)
+### [Calculating π with Catalan Numbers: A Novel Approach](https://abhrankan-chakrabarti.github.io/mathematics/algorithms/2024/06/21/calculating-pi)
 *Date: June 21, 2024*
 
 Calculating the digits of π has been a topic of interest for mathematicians and computer scientists alike. In this post, I introduce a novel algorithm for π calculation that leverages Catalan numbers and fixed-point arithmetic.
 
-### [Exploring Almost Isosceles Pythagorean Triples: An Ancient Mathematical Marvel](/mathematics/algorithms/2024/07/03/pythagorean-triples-exploration.html)
+### [Exploring Almost Isosceles Pythagorean Triples: An Ancient Mathematical Marvel](https://abhrankan-chakrabarti.github.io/mathematics/algorithms/2024/07/03/pythagorean-triples-exploration)
 *Date: July 3, 2024*
 
 Mathematics has always been a treasure trove of fascinating problems and elegant solutions. One such captivating concept is the almost isosceles Pythagorean triples. In this post, we will dive into what they are, their significance, and how they can be generated.
 
-### [Greek Mythology: Gods, Heroes, and Epic Tales](/mythology/2024/07/04/greek-mythology.html)
+### [Greek Mythology: Gods, Heroes, and Epic Tales](https://abhrankan-chakrabarti.github.io/mythology/2024/07/04/greek-mythology)
 *Date: July 4, 2024*
 
 Greek mythology is a rich tapestry of stories and characters that have captivated people for millennia. These myths offer insights into the ancient Greek worldview, their understanding of natural phenomena, and their cultural values. This section will explore some of the most significant gods, heroes, and myths from ancient Greece.
 
-### [Indian Mythology: Gods, Heroes, and Epic Tales](/mythology/2024/07/05/indian-mythology.html)
+### [Indian Mythology: Gods, Heroes, and Epic Tales](https://abhrankan-chakrabarti.github.io/mythology/2024/07/05/indian-mythology)
 *Date: July 5, 2024*
 
 Indian mythology is a rich and diverse collection of stories, traditions, and legends that have been passed down through generations in India. It includes a vast array of gods, goddesses, heroes, and mythical creatures, each with their own unique stories and significance. Indian mythology primarily draws from Hinduism but also includes influences from Buddhism, Jainism, and other regional traditions.
 
-### [Exploring Ancient Egyptian Civilization](/history/2024/07/05/ancient-egyptian-civilization.html)
+### [Exploring Ancient Egyptian Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/05/ancient-egyptian-civilization)
 *Date: July 5, 2024*
 
 Ancient Egypt is one of the most fascinating and influential civilizations in human history. Spanning over 3,000 years, from approximately 3100 BCE to 30 BCE, Egypt’s history is marked by remarkable achievements in architecture, art, science, and governance. The civilization flourished along the Nile River, which provided fertile land and resources necessary for sustaining a complex society.
 
-### [Exploring Ancient Greek Civilization](/history/2024/07/06/ancient-greek-civilization.html)
+### [Exploring Ancient Greek Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-greek-civilization)
 *Date: July 6, 2024*
 
 Ancient Greece, known for its influential culture, remarkable contributions to philosophy, science, and art, laid the foundations of Western civilization. Flourishing between the 8th century BCE and the end of antiquity (ca. 600 CE), Greek culture has profoundly shaped the world.
 
-### [Exploring Ancient Indian Civilization](/history/2024/07/06/ancient-indian-civilization.html)
+### [Exploring Ancient Indian Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-indian-civilization)
 *Date: July 6, 2024*
 
 Ancient India, with its rich tapestry of cultures and traditions, made significant contributions to various fields including mathematics, science, literature, and philosophy. The civilization flourished in the Indian subcontinent and has left an enduring legacy that continues to influence modern society.
 
-### [Exploring Ancient Egyptian Mythology](/history/2024/07/06/ancient-egyptian-mythology.html)
+### [Exploring Ancient Egyptian Mythology](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-egyptian-mythology)
 *Date: July 6, 2024*
 
 Ancient Egyptian mythology is a rich tapestry of gods, goddesses, and mythological tales that played a central role in the daily lives and spiritual beliefs of the ancient Egyptians. This mythology offers insights into their understanding of the cosmos, the afterlife, and the forces of nature.
 
-### [The History of Computers](/2024/07/06/the-history-of-computers.html)
+### [The History of Computers](https://abhrankan-chakrabarti.github.io/2024/07/06/the-history-of-computers)
 *Date: July 6, 2024*
 
 The history of computers is a fascinating journey that spans centuries, highlighting key innovations and milestones that have shaped modern computing.
 
-### [History of Mathematics](/2024/07/06/history-of-mathematics.html)
+### [History of Mathematics](https://abhrankan-chakrabarti.github.io/2024/07/06/history-of-mathematics)
 *Date: July 6, 2024*
 
 Mathematics has a rich and extensive history that spans various cultures and centuries. Here are some key milestones and contributions from different periods and regions.
 
-### [Innovations in Technology](/2024/07/06/innovations-in-technology.html)
+### [Innovations in Technology](https://abhrankan-chakrabarti.github.io/2024/07/06/innovations-in-technology)
 *Date: July 6, 2024*
 
 Technological innovations have transformed the way we live, work, and communicate. Here are some of the key advancements that have significantly impacted our world.
 
-### [History of Physics](/2024/07/06/history-of-physics.html)
+### [History of Physics](https://abhrankan-chakrabarti.github.io/2024/07/06/history-of-physics)
 *Date: July 6, 2024*
 
 Physics, the fundamental science of matter, energy, and their interactions, has a long and rich history. Here are some key milestones and contributions from different periods.
