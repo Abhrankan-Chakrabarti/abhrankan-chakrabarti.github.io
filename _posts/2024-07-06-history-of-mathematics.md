@@ -51,7 +51,6 @@ Mathematics has a rich and extensive history that spans various cultures and cen
 
 For more detailed information on the history of mathematics, you can explore the following resources:
 - [MacTutor History of Mathematics](https://mathshistory.st-andrews.ac.uk)
-- [History of Mathematics: From Mesopotamia to Modernity](https://www-history.mcs.st-andrews.ac.uk)
 - [The Story of Mathematics](http://www.storyofmathematics.com)
 
 ### Visuals
