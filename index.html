@@ -6,17 +6,48 @@
         <title>Abhrankan Chakrabarti - Portfolio</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <meta name="description" content="Abhrankan Chakrabarti's personal portfolio showcasing projects in mathematics, programming, and technology." />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link href="css/css2.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/toggletheme.css" />
     </head>
     <body>
-        <button onclick="toggleTheme()" class="toggle-theme-btn"><i class="fas fa-moon"></i></button>
+        <button onclick="toggleTheme()" class="toggle-theme-btn">
+        <svg width="30" height="30" id="light-icon">
+        <circle cx="15" cy="15" r="6" fill="currentColor" />
+
+        <line
+          id="ray"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          x1="15"
+          y1="1"
+          x2="15"
+          y2="4"
+        ></line>
+
+        <use href="#ray" transform="rotate(45 15 15)" />
+        <use href="#ray" transform="rotate(90 15 15)" />
+        <use href="#ray" transform="rotate(135 15 15)" />
+        <use href="#ray" transform="rotate(180 15 15)" />
+        <use href="#ray" transform="rotate(225 15 15)" />
+        <use href="#ray" transform="rotate(270 15 15)" />
+        <use href="#ray" transform="rotate(315 15 15)" />
+      </svg>
+      <svg width="30" height="30" id="dark-icon">
+        <path
+          fill="currentColor"
+          d="
+          M 23, 5
+          A 12 12 0 1 0 23, 25
+          A 12 12 0 0 1 23, 5"
+        />
+      </svg>
+        </button>
         <div class="container">
             <header>
                 <div class="center">
-                    <img src="https://avatars.githubusercontent.com/u/76620562?v=4" alt="Abhrankan Chakrabarti smiling" class="profile-img" />
+                    <img src="/76620562.jpeg" alt="Abhrankan Chakrabarti smiling" class="profile-img" />
                     <h1>Hello World, I'm Abhrankan Chakrabarti 👋</h1>
                     <h3>A Passionate Student Exploring the Frontiers of Mathematics, Programming, and Technology</h3>
                 </div>
