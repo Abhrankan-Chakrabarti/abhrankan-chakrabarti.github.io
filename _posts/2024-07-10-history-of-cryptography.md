@@ -30,5 +30,4 @@ The history of cryptography traces back to ancient times, evolving through centu
 For more detailed information on the history of cryptography, you can explore the following resources:
 - [History of Cryptography - Wikipedia](https://en.wikipedia.org/wiki/History_of_cryptography)
 - [Introduction to Cryptography - Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography)
-- [The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography](https://www.simonsingh.net/The_Code_Book.html) by Simon Singh
 - [Crypto 101](https://crypto101.io/) - An introductory book on cryptography
