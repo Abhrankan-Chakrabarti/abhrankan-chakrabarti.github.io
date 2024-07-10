@@ -45,8 +45,8 @@ Mathematics, the abstract science of number, quantity, and space, has a rich and
 - **Isaac Newton and Gottfried Wilhelm Leibniz**: Independently developed calculus, a branch of mathematics that deals with continuous change.
 - **Leonhard Euler**: Made pioneering contributions to topology and introduced much of the modern terminology and notation, including the concept of a function.
 
-![Isaac Newton](/assets/images/newton.webp)
-*Description: A portrait of Isaac Newton, who co-developed the field of calculus.*
+![Isaac Newton](/assets/images/newton_mathematics.webp)
+*Description: A portrait of Isaac Newton, who co-developed the field of calculus and made significant contributions to mathematics.*
 
 ### 19th and 20th Centuries
 - **Carl Friedrich Gauss**: Known as the "Prince of Mathematicians," Gauss made significant contributions to number theory, algebra, statistics, analysis, differential geometry, and electrostatics.
