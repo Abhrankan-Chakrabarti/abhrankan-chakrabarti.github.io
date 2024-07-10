@@ -58,4 +58,3 @@ Chemistry, the scientific study of the properties, composition, and transformati
 For more detailed information on the history of chemistry, you can explore the following resources:
 - [History of Chemistry - Wikipedia](https://en.wikipedia.org/wiki/History_of_chemistry)
 - [Chemical Heritage Foundation](https://www.sciencehistory.org)
-- [Royal Society of Chemistry: Historical Highlights](https://www.rsc.org/learn-chemistry/resources/history-of-chemistry/)
