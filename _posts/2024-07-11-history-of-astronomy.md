@@ -26,5 +26,5 @@ Astronomy, the study of celestial objects and phenomena, has fascinated humans f
 
 ### Further Reading
 
-For more detailed information on the history of astronomy, you can explore the following resources:
+For more detailed information on the history of astronomy, you can explore the following resource:
 - [History of Astronomy - Wikipedia](https://en.wikipedia.org/wiki/History_of_astronomy)
