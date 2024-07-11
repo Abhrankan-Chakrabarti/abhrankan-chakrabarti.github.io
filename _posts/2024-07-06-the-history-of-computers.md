@@ -7,6 +7,9 @@ author: Abhrankan Chakrabarti
 
 ### The History of Computers
 
+![Early Computers](/assets/images/early_computers.webp)
+*Description: An early mechanical computer demonstrating the initial steps in computational technology.*
+
 The history of computers is a fascinating journey that spans centuries, highlighting key innovations and milestones that have shaped modern computing.
 
 #### Early Beginnings
