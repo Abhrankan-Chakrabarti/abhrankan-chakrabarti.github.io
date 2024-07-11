@@ -60,3 +60,4 @@ Mathematics, the abstract science of number, quantity, and space, has a rich and
 For more detailed information on the history of mathematics, you can explore the following resources:
 - [History of Mathematics - Wikipedia](https://en.wikipedia.org/wiki/History_of_mathematics)
 - [Mathematics History - The MacTutor History of Mathematics Archive](https://mathshistory.st-andrews.ac.uk/)
+- [The Story of Mathematics](http://www.storyofmathematics.com/)
