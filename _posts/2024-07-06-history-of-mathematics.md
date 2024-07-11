@@ -1,11 +1,15 @@
 ---
 title: History of Mathematics
-description: Exploring the Evolution of Mathematical Thought
+description: A comprehensive look at the evolution of mathematical thought and discovery through the ages.
+date: 2024-07-06
 ---
 
 ## History of Mathematics
 
-Mathematics, the abstract science of number, quantity, and space, has a rich and fascinating history. Here are some key milestones and contributions from different periods:
+![Ancient Mathematics](/assets/images/ancient_mathematics.webp)
+*Description: An ancient mathematical text demonstrating early problem-solving techniques.*
+
+Mathematics has a rich and storied history, with roots that stretch back to the earliest civilizations. This section explores the key developments and figures in the history of mathematics, from ancient times to the modern era.
 
 ### Ancient and Classical Periods
 
