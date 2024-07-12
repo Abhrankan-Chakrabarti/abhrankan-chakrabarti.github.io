@@ -1,7 +1,7 @@
 ---
 title: History of Ancient Civilizations
 description: Exploring the rich and varied tapestry of ancient civilizations, their innovations, and cultural legacies.
-date: 2024-07-10
+date: 2024-07-12
 ---
 
 ### History of Ancient Civilizations
@@ -30,6 +30,4 @@ The study of ancient civilizations reveals the rich and varied tapestry of human
 
 For more detailed information on the history of ancient civilizations, you can explore the following resources:
 - [Ancient Civilizations - Wikipedia](https://en.wikipedia.org/wiki/Ancient_civilizations)
-- [Smithsonian: Ancient Civilizations](https://www.smithsonianmag.com/history/ancient-civilizations/)
-- [National Geographic: Ancient History](https://www.nationalgeographic.com/history/archaeology/ancient-civilizations)
 - [BBC: Ancient Civilizations](https://www.bbc.co.uk/history/ancient)
