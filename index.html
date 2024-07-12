@@ -172,6 +172,13 @@
         <option value="desc">Newest to Oldest</option>
         <option value="asc">Oldest to Newest</option>
     </select>
+    <label for="postsPerPage">Posts per page:</label>
+    <select id="postsPerPage" onchange="changePostsPerPage()">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+    </select>
     <div id="blogContainer">
         <div class="blog-post">
             <h3><a href="/mathematics/algorithms/2024/06/21/calculating-pi.html">Calculating π with Catalan Numbers: A Novel Approach</a></h3>
@@ -255,6 +262,11 @@
         </div>
         <!-- Add more blog posts as needed -->
     </div>
+    <div class="pagination">
+        <button id="prevPage" onclick="changePage(-1)">Previous</button>
+        <span class="page-info" id="pageInfo"></span>
+        <button id="nextPage" onclick="changePage(1)">Next</button>
+    </div>
 </section>
             </main>
             <footer>
@@ -263,27 +275,5 @@
         </div>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/toggletheme.js"></script>
-        <script>
-    function sortBlogPosts() {
-        const sortOrder = document.getElementById('sortOrder').value;
-        const blogContainer = document.getElementById('blogContainer');
-        const posts = Array.from(blogContainer.getElementsByClassName('blog-post'));
-        
-        posts.sort((a, b) => {
-            const dateA = new Date(a.querySelector('.date').textContent);
-            const dateB = new Date(b.querySelector('.date').textContent);
-            
-            return sortOrder === 'asc' ? dateA - dateB : dateB - dateA;
-        });
-        
-        posts.forEach(post => blogContainer.appendChild(post));
-    }
-    
-    // Sort initially by descending order
-    document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('sortOrder').value = 'desc';
-        sortBlogPosts();
-    });
-</script>
     </body>
 </html>
