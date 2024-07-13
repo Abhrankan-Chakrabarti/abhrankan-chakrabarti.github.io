@@ -1,0 +1,126 @@
+.dark-theme .blob-code {
+  color: #dadada !important;
+}
+
+.dark-theme .type-html .pl-smi {
+  color: #dadada;
+}
+
+.dark-theme .type-html .pl-ent {
+  color: #569cd6;
+}
+
+.dark-theme .type-html .pl-c1 {
+  color: #9cdcfe;
+}
+
+.dark-theme .type-html .pl-kos {
+  color: #424242;
+}
+
+.dark-theme .type-html .pl-s {
+  color: #ce8349;
+}
+
+.dark-theme .type-javascript .pl-k {
+  color: #2c7ad6;
+}
+
+.dark-theme .type-javascript .pl-en {
+  color: #dcdcaa;
+}
+
+.dark-theme .type-javascript .pl-s1 {
+  color: #9cdcfe;
+}
+
+.dark-theme .type-javascript .pl-kos {
+  color: #dadada;
+}
+
+.dark-theme .type-javascript .pl-s {
+  color: #ce8349;
+}
+
+.dark-theme .type-javascript .pl-smi {
+  color: #4ec9b0;
+}
+
+.dark-theme .type-css .pl-c1 {
+  color: #9cdcfe;
+}
+
+.dark-theme .type-css .pl-pds, .dark-theme .type-css .pl-kos {
+  color: #ce8349;
+}
+
+.dark-theme .type-css .pl-ent {
+  color: #569cd6;
+}
+
+.dark-theme .type-css .pl-smi {
+  color: #dadada;
+}
+
+.dark-theme .type-scss .pl-e {
+  color: #ce8349;
+}
+
+.dark-theme .type-scss .pl-c1, .dark-theme .type-scss .pl-k {
+  color: #9cdcfe;
+}
+
+.dark-theme .type-scss .pl-ent {
+  color: #2c7ad6;
+}
+
+.dark-theme .pl-c {
+  color: #6a9955 !important;
+}
+
+.dark-theme .gist-file {
+  background-color: white;
+  border-color: white;
+}
+
+.dark-theme .gist-data {
+  background-color: #1E1E1E;
+  border-color: black;
+}
+
+.dark-theme .gist-meta a {
+  color: #696969;
+  text-decoration: none;
+  transition: 0.2s ease-in color;
+}
+
+.dark-theme .gist-meta a:hover {
+  color: black;
+}
+
+.dark-theme .Box-body .highlight {
+  background-color: #1E1E1E;
+}
+
+.dark-theme .Box-body .highlight .blob-num {
+  color: #b9b9b9ab;
+  border-right: 2px solid #b9b9b97e;
+}
+
+.dark-theme .gist .gist-file {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.dark-theme .gist .gist-file .gist-meta {
+  background-color: #151515;
+  color: #929292;
+}
+
+.dark-theme .gist .gist-file .gist-meta a {
+  color: #c9c9c9;
+}
+
+.dark-theme .gist .gist-file .gist-meta a:hover {
+  color: white;
+}
