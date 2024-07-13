@@ -1,126 +1,154 @@
-.dark-theme .blob-code {
-  color: #dadada !important;
+body .dark-theme .gist .highlight {
+    background: #141414;
 }
-
-.dark-theme .type-html .pl-smi {
-  color: #dadada;
+body .dark-theme .gist .blob-num,
+body .dark-theme .gist .blob-code-inner,
+body .dark-theme .gist .highlight,
+body .dark-theme .gist .pl-enm,
+body .dark-theme .gist .pl-ko,
+body .dark-theme .gist .pl-mo,
+body .dark-theme .gist .pl-mp1 .pl-sf,
+body .dark-theme .gist .pl-ms,
+body .dark-theme .gist .pl-pdc1,
+body .dark-theme .gist .pl-scp,
+body .dark-theme .gist .pl-smc,
+body .dark-theme .gist .pl-som,
+body .dark-theme .gist .pl-va,
+body .dark-theme .gist .pl-vpf,
+body .dark-theme .gist .pl-vpu,
+body .dark-theme .gist .pl-mdr {
+     color: #aab1bf;
 }
-
-.dark-theme .type-html .pl-ent {
-  color: #569cd6;
+body .dark-theme .gist .pl-mb,
+body .dark-theme .gist .pl-pdb {
+     font-weight: 700;
 }
-
-.dark-theme .type-html .pl-c1 {
-  color: #9cdcfe;
+body .dark-theme .gist .pl-c,
+body .dark-theme .gist .pl-c span,
+body .dark-theme .gist .pl-pdc {
+     color: #5b6270;
+     font-style: italic;
 }
-
-.dark-theme .type-html .pl-kos {
-  color: #424242;
+body .dark-theme .gist .pl-sr .pl-cce {
+     color: #56b5c2;
+     font-weight: 400;
 }
-
-.dark-theme .type-html .pl-s {
-  color: #ce8349;
+body .dark-theme .gist .pl-ef,
+body .dark-theme .gist .pl-en,
+body .dark-theme .gist .pl-enf,
+body .dark-theme .gist .pl-eoai,
+body .dark-theme .gist .pl-kos,
+body .dark-theme .gist .pl-mh .pl-pdh,
+body .dark-theme .gist .pl-mr {
+     color: #61afef;
 }
-
-.dark-theme .type-javascript .pl-k {
-  color: #2c7ad6;
+body .dark-theme .gist .pl-ens,
+body .dark-theme .gist .pl-vi {
+     color: #be5046;
 }
-
-.dark-theme .type-javascript .pl-en {
-  color: #dcdcaa;
+body .dark-theme .gist .pl-enti,
+body .dark-theme .gist .pl-mai .pl-sf,
+body .dark-theme .gist .pl-ml,
+body .dark-theme .gist .pl-sf,
+body .dark-theme .gist .pl-sr,
+body .dark-theme .gist .pl-sr .pl-sra,
+body .dark-theme .gist .pl-src,
+body .dark-theme .gist .pl-st,
+body .dark-theme .gist .pl-vo {
+     color: #56b5c2;
 }
-
-.dark-theme .type-javascript .pl-s1 {
-  color: #9cdcfe;
+body .dark-theme .gist .pl-eoi,
+body .dark-theme .gist .pl-mri,
+body .dark-theme .gist .pl-pds,
+body .dark-theme .gist .pl-pse .pl-s1,
+body .dark-theme .gist .pl-s,
+body .dark-theme .gist .pl-s1 {
+     color: #97c279;
 }
-
-.dark-theme .type-javascript .pl-kos {
-  color: #dadada;
+body .dark-theme .gist .pl-k,
+body .dark-theme .gist .pl-kolp,
+body .dark-theme .gist .pl-mc,
+body .dark-theme .gist .pl-pde {
+     color: #c578dd;
 }
-
-.dark-theme .type-javascript .pl-s {
-  color: #ce8349;
+body .dark-theme .gist .pl-mi,
+body .dark-theme .gist .pl-pdi {
+     color: #c578dd;
+     font-style: italic;
 }
-
-.dark-theme .type-javascript .pl-smi {
-  color: #4ec9b0;
+body .dark-theme .gist .pl-mp,
+body .dark-theme .gist .pl-stp {
+     color: #818896;
 }
-
-.dark-theme .type-css .pl-c1 {
-  color: #9cdcfe;
+body .dark-theme .gist .pl-mdh,
+body .dark-theme .gist .pl-mdi,
+body .dark-theme .gist .pl-mdr {
+     font-weight: 400;
 }
-
-.dark-theme .type-css .pl-pds, .dark-theme .type-css .pl-kos {
-  color: #ce8349;
+body .dark-theme .gist .pl-mdht,
+body .dark-theme .gist .pl-mi1 {
+     color: #97c279;
+     background: #020;
 }
-
-.dark-theme .type-css .pl-ent {
-  color: #569cd6;
+body .dark-theme .gist .pl-md,
+body .dark-theme .gist .pl-mdhf {
+     color: #df6b75;
+     background: #200;
 }
-
-.dark-theme .type-css .pl-smi {
-  color: #dadada;
+body .dark-theme .gist .pl-corl {
+     color: #df6b75;
+     text-decoration: underline;
 }
-
-.dark-theme .type-scss .pl-e {
-  color: #ce8349;
+body .dark-theme .gist .pl-ib {
+     background: #df6b75;
 }
-
-.dark-theme .type-scss .pl-c1, .dark-theme .type-scss .pl-k {
-  color: #9cdcfe;
+body .dark-theme .gist .pl-ii {
+     background: #e0c184;
+     color: #fff;
 }
-
-.dark-theme .type-scss .pl-ent {
-  color: #2c7ad6;
+body .dark-theme .gist .pl-iu {
+     background: #e05151;
 }
-
-.dark-theme .pl-c {
-  color: #6a9955 !important;
+body .dark-theme .gist .pl-ms1 {
+     color: #aab1bf;
+     background: #373b41;
 }
-
-.dark-theme .gist-file {
-  background-color: white;
-  border-color: white;
+body .dark-theme .gist .pl-c1,
+body .dark-theme .gist .pl-cn,
+body .dark-theme .gist .pl-e,
+body .dark-theme .gist .pl-eoa,
+body .dark-theme .gist .pl-eoac,
+body .dark-theme .gist .pl-eoac .pl-pde,
+body .dark-theme .gist .pl-kou,
+body .dark-theme .gist .pl-mm,
+body .dark-theme .gist .pl-mp .pl-s3,
+body .dark-theme .gist .pl-mq,
+body .dark-theme .gist .pl-s3,
+body .dark-theme .gist .pl-sok,
+body .dark-theme .gist .pl-sv,
+body .dark-theme .gist .pl-mb {
+     color: #d19965;
 }
-
-.dark-theme .gist-data {
-  background-color: #1E1E1E;
-  border-color: black;
+body .dark-theme .gist .pl-enc,
+body .dark-theme .gist .pl-entc,
+body .dark-theme .gist .pl-pse .pl-s2,
+body .dark-theme .gist .pl-s2,
+body .dark-theme .gist .pl-sc,
+body .dark-theme .gist .pl-smp,
+body .dark-theme .gist .pl-sr .pl-sre,
+body .dark-theme .gist .pl-stj,
+body .dark-theme .gist .pl-v,
+body .dark-theme .gist .pl-pdb {
+     color: #e4bf7a;
 }
-
-.dark-theme .gist-meta a {
-  color: #696969;
-  text-decoration: none;
-  transition: 0.2s ease-in color;
-}
-
-.dark-theme .gist-meta a:hover {
-  color: black;
-}
-
-.dark-theme .Box-body .highlight {
-  background-color: #1E1E1E;
-}
-
-.dark-theme .Box-body .highlight .blob-num {
-  color: #b9b9b9ab;
-  border-right: 2px solid #b9b9b97e;
-}
-
-.dark-theme .gist .gist-file {
-  background-color: black !important;
-  border-color: black !important;
-}
-
-.dark-theme .gist .gist-file .gist-meta {
-  background-color: #151515;
-  color: #929292;
-}
-
-.dark-theme .gist .gist-file .gist-meta a {
-  color: #c9c9c9;
-}
-
-.dark-theme .gist .gist-file .gist-meta a:hover {
-  color: white;
+body .dark-theme .gist .pl-ent,
+body .dark-theme .gist .pl-entl,
+body .dark-theme .gist .pl-entm,
+body .dark-theme .gist .pl-mh,
+body .dark-theme .gist .pl-pdv,
+body .dark-theme .gist .pl-smi,
+body .dark-theme .gist .pl-sol,
+body .dark-theme .gist .pl-mdh,
+body .dark-theme .gist .pl-mdi {
+     color: #df6b75;
 }
