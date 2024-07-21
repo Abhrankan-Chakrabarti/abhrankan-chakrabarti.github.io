@@ -152,3 +152,20 @@
 .dark-theme .gist .pl-mdi {
      color: #df6b75;
 }
+.dark-theme .gist .gist-file {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.dark-theme .gist .gist-file .gist-meta {
+  background-color: #151515;
+  color: #929292;
+}
+
+.dark-theme .gist .gist-file .gist-meta a {
+  color: #c9c9c9;
+}
+
+.dark-theme .gist .gist-file .gist-meta a:hover {
+  color: white;
+}
