@@ -32,7 +32,5 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
 
 ### Further Reading
 
-For more detailed information on the history of mathematical notation, you can explore the following resources:
+For more detailed information on the history of mathematical notation, you can explore the following resource:
 - [History of Mathematical Notation - Wikipedia](https://en.wikipedia.org/wiki/Mathematical_notation)
-- [Math Is Fun: History of Math Symbols](https://www.mathsisfun.com/numbers/math-history.html)
-- [The Story of Mathematics: Historical Notation](https://www.storyofmathematics.com/mathematical-notation.html)
