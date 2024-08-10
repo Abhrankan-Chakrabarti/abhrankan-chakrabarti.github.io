@@ -222,7 +222,7 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
   - `math-utils`
   - `utility-functions`
 
-**[LlamaInteract](https://github.com/Abhrankan-Chakrabarti/LlamaInteract)**: An interactive AI platform with both terminal and web-based interfaces for real-time model interactions, featuring dynamic model integration and immediate feedback streaming. Developed by *The Vanguards*.
+- **[LlamaInteract](https://github.com/Abhrankan-Chakrabarti/LlamaInteract)**: An interactive AI platform with both terminal and web-based interfaces for real-time model interactions, featuring dynamic model integration and immediate feedback streaming. Developed by *The Vanguards*.
   - `ai`
   - `nlp`
   - `interactive-cli`
