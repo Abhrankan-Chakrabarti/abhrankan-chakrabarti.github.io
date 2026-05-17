@@ -104,10 +104,27 @@ function initGists() {
                 btn.textContent = 'Hide Gist';
                 content.style.display = '';
                 if (!gist.dataset.loaded) {
-                    const s = document.createElement('script');
-                    s.src = gist.dataset.src;
-                    s.async = true;
-                    content.appendChild(s);
+                    // Embed the gist inside an iframe so the gist's document.write
+                    // targets the iframe document instead of the main document.
+                    const iframe = document.createElement('iframe');
+                    iframe.className = 'gist-iframe';
+                    iframe.style.width = '100%';
+                    iframe.style.border = '0';
+                    iframe.setAttribute('title', 'Gist');
+                    content.appendChild(iframe);
+                    try {
+                        const idoc = iframe.contentDocument || iframe.contentWindow.document;
+                        idoc.open();
+                        idoc.write('<base target="_parent">');
+                        idoc.write(`<script src="${gist.dataset.src}"></script>`);
+                        idoc.close();
+                    } catch (e) {
+                        // Fallback: if iframe writing is blocked, append script directly (may still error)
+                        const s = document.createElement('script');
+                        s.src = gist.dataset.src;
+                        s.async = true;
+                        content.appendChild(s);
+                    }
                     gist.dataset.loaded = 'true';
                 }
             }
