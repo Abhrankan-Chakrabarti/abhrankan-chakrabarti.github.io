@@ -84,3 +84,35 @@ function addObserver(el, options) {
 }
 
 scrollTrigger(".percentage");
+
+// Gist toggle + lazy-load: default collapsed, load on expand
+function initGists() {
+    const gistEls = document.querySelectorAll('.gist[data-src]');
+    gistEls.forEach((gist) => {
+        const btn = gist.querySelector('.gist-toggle');
+        const content = gist.querySelector('.gist-content');
+        if (!btn || !content) return;
+
+        btn.addEventListener('click', () => {
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            if (expanded) {
+                btn.setAttribute('aria-expanded', 'false');
+                btn.textContent = 'Show Gist';
+                content.style.display = 'none';
+            } else {
+                btn.setAttribute('aria-expanded', 'true');
+                btn.textContent = 'Hide Gist';
+                content.style.display = '';
+                if (!gist.dataset.loaded) {
+                    const s = document.createElement('script');
+                    s.src = gist.dataset.src;
+                    s.async = true;
+                    content.appendChild(s);
+                    gist.dataset.loaded = 'true';
+                }
+            }
+        });
+    });
+}
+
+document.addEventListener('DOMContentLoaded', initGists);
