@@ -85,6 +85,34 @@ function addObserver(el, options) {
 
 scrollTrigger(".percentage");
 
+function applyGistIframeTheme(iframe) {
+    if (!iframe || !iframe.contentWindow) return;
+    const idoc = iframe.contentDocument || iframe.contentWindow.document;
+    if (!idoc || !idoc.head) return;
+    const isDarkMode = document.body.classList.contains('dark-theme');
+    let styleElem = idoc.getElementById('gist-theme-override');
+    if (!styleElem) {
+        styleElem = idoc.createElement('style');
+        styleElem.id = 'gist-theme-override';
+        idoc.head.appendChild(styleElem);
+    }
+    styleElem.textContent = `
+        html, body { background: ${isDarkMode ? '#0d1117' : '#fff'} !important; color: ${isDarkMode ? '#c9d1d9' : '#24292f'} !important; }
+        .gist, .gist-file { background: ${isDarkMode ? '#0d1117' : '#fff'} !important; border-color: ${isDarkMode ? '#21262d' : '#ddd'} !important; }
+        .gist-file .gist-meta { background: ${isDarkMode ? '#111827' : '#f6f8fa'} !important; color: ${isDarkMode ? '#9ca3af' : '#57606a'} !important; }
+        .gist-file .gist-meta a { color: ${isDarkMode ? '#8fbcff' : '#0366d6'} !important; }
+        .gist-file .gist-data { background: transparent !important; }
+        .gist .blob-num, .gist .blob-code-inner, .gist .highlight { color: ${isDarkMode ? '#aab1bf' : '#24292f'} !important; background: transparent !important; }
+        .gist .blob-code-inner { background: transparent !important; }
+        .gist .gist-file { box-shadow: none !important; }
+    `;
+}
+
+function updateAllGistThemes() {
+    const iframes = document.querySelectorAll('.gist-iframe');
+    iframes.forEach((iframe) => applyGistIframeTheme(iframe));
+}
+
 // Gist toggle + lazy-load: default collapsed, load on expand
 function initGists() {
     const gistEls = document.querySelectorAll('.gist[data-src]');
@@ -115,22 +143,31 @@ function initGists() {
                     try {
                         const idoc = iframe.contentDocument || iframe.contentWindow.document;
                         const isDarkMode = document.body.classList.contains('dark-theme');
-                        const iframeHtml = `<!DOCTYPE html><html><head><base target="_parent"><style>body{margin:0;background-color:${isDarkMode ? '#0d1117' : '#fff'};color:${isDarkMode ? '#c9d1d9' : '#24292f'};}.gist-file{background-color:${isDarkMode ? '#0d1117' : '#fff'} !important;border-color:${isDarkMode ? '#21262d' : '#ddd'} !important;}.gist-file .gist-meta{background-color:${isDarkMode ? '#111827' : '#f6f8fa'} !important;color:${isDarkMode ? '#9ca3af' : '#57606a'} !important;}.gist-file .gist-meta a{color:${isDarkMode ? '#8fbcff' : '#0366d6'} !important;}</style></head><body><script src="${gist.dataset.src}"></script></body></html>`;
+                        const iframeHtml = `<!DOCTYPE html><html><head><base target="_parent"><style>html, body {margin:0;background:${isDarkMode ? '#0d1117' : '#fff'} !important;color:${isDarkMode ? '#c9d1d9' : '#24292f'} !important;} .gist, .gist-file {background:${isDarkMode ? '#0d1117' : '#fff'} !important;border-color:${isDarkMode ? '#21262d' : '#ddd'} !important;} .gist-file .gist-meta {background:${isDarkMode ? '#111827' : '#f6f8fa'} !important;color:${isDarkMode ? '#9ca3af' : '#57606a'} !important;} .gist-file .gist-meta a {color:${isDarkMode ? '#8fbcff' : '#0366d6'} !important;} .gist-file .gist-data {background:transparent !important;} .gist .blob-num, .gist .blob-code-inner, .gist .highlight {color:${isDarkMode ? '#aab1bf' : '#24292f'} !important; background:transparent !important;}</style></head><body><script src="${gist.dataset.src}"></script></body></html>`;
                         idoc.open();
                         idoc.write(iframeHtml);
                         idoc.close();
                     } catch (e) {
-                        // Fallback: if iframe writing is blocked, append script directly (may still error)
                         const s = document.createElement('script');
                         s.src = gist.dataset.src;
                         s.async = false;
                         content.appendChild(s);
                     }
                     gist.dataset.loaded = 'true';
+                } else {
+                    const iframe = content.querySelector('.gist-iframe');
+                    if (iframe) applyGistIframeTheme(iframe);
                 }
             }
         });
     });
 }
 
-document.addEventListener('DOMContentLoaded', initGists);
+function updateGistThemesOnToggle() {
+    updateAllGistThemes();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initGists();
+    updateGistThemesOnToggle();
+});

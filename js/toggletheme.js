@@ -18,4 +18,8 @@ function toggleTheme() {
         lightIcon.setAttribute("display", "none");
         darkIcon.setAttribute("display", "block");
     }
+
+    if (typeof updateAllGistThemes === 'function') {
+        updateAllGistThemes();
+    }
 }
