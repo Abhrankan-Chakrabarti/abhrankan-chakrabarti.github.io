@@ -86,26 +86,10 @@ function addObserver(el, options) {
 scrollTrigger(".percentage");
 
 function applyGistIframeTheme(iframe) {
-    if (!iframe || !iframe.contentWindow) return;
-    const idoc = iframe.contentDocument || iframe.contentWindow.document;
-    if (!idoc || !idoc.head) return;
+    if (!iframe) return;
     const isDarkMode = document.body.classList.contains('dark-theme');
-    let styleElem = idoc.getElementById('gist-theme-override');
-    if (!styleElem) {
-        styleElem = idoc.createElement('style');
-        styleElem.id = 'gist-theme-override';
-        idoc.head.appendChild(styleElem);
-    }
-    styleElem.textContent = `
-        html, body { background: ${isDarkMode ? '#0d1117' : '#fff'} !important; color: ${isDarkMode ? '#c9d1d9' : '#24292f'} !important; }
-        .gist, .gist-file { background: ${isDarkMode ? '#0d1117' : '#fff'} !important; border-color: ${isDarkMode ? '#21262d' : '#ddd'} !important; }
-        .gist-file .gist-meta { background: ${isDarkMode ? '#111827' : '#f6f8fa'} !important; color: ${isDarkMode ? '#9ca3af' : '#57606a'} !important; }
-        .gist-file .gist-meta a { color: ${isDarkMode ? '#8fbcff' : '#0366d6'} !important; }
-        .gist-file .gist-data { background: transparent !important; }
-        .gist .blob-num, .gist .blob-code-inner, .gist .highlight { color: ${isDarkMode ? '#aab1bf' : '#24292f'} !important; background: transparent !important; }
-        .gist .blob-code-inner { background: transparent !important; }
-        .gist .gist-file { box-shadow: none !important; }
-    `;
+    iframe.style.filter = isDarkMode ? 'invert(1) hue-rotate(180deg)' : '';
+    iframe.style.background = isDarkMode ? '#0d1117' : 'transparent';
 }
 
 function updateAllGistThemes() {
@@ -138,12 +122,14 @@ function initGists() {
                     iframe.className = 'gist-iframe';
                     iframe.style.width = '100%';
                     iframe.style.border = '0';
+                    const isDarkMode = document.body.classList.contains('dark-theme');
+                    iframe.style.background = isDarkMode ? '#0d1117' : 'transparent';
+                    iframe.style.filter = isDarkMode ? 'invert(1) hue-rotate(180deg)' : '';
                     iframe.setAttribute('title', 'Gist');
                     content.appendChild(iframe);
                     try {
                         const idoc = iframe.contentDocument || iframe.contentWindow.document;
-                        const isDarkMode = document.body.classList.contains('dark-theme');
-                        const iframeHtml = `<!DOCTYPE html><html><head><base target="_parent"><style>html, body {margin:0;background:${isDarkMode ? '#0d1117' : '#fff'} !important;color:${isDarkMode ? '#c9d1d9' : '#24292f'} !important;} .gist, .gist-file {background:${isDarkMode ? '#0d1117' : '#fff'} !important;border-color:${isDarkMode ? '#21262d' : '#ddd'} !important;} .gist-file .gist-meta {background:${isDarkMode ? '#111827' : '#f6f8fa'} !important;color:${isDarkMode ? '#9ca3af' : '#57606a'} !important;} .gist-file .gist-meta a {color:${isDarkMode ? '#8fbcff' : '#0366d6'} !important;} .gist-file .gist-data {background:transparent !important;} .gist .blob-num, .gist .blob-code-inner, .gist .highlight {color:${isDarkMode ? '#aab1bf' : '#24292f'} !important; background:transparent !important;}</style></head><body><script src="${gist.dataset.src}"></script></body></html>`;
+                        const iframeHtml = `<!DOCTYPE html><html><head><base target="_parent"><style>html, body {margin:0;background:transparent !important;}</style></head><body><script src="${gist.dataset.src}"></script></body></html>`;
                         idoc.open();
                         idoc.write(iframeHtml);
                         idoc.close();
