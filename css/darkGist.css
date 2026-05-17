@@ -169,3 +169,51 @@
 .dark-theme .gist .gist-file .gist-meta a:hover {
   color: white;
 }
+
+.gist {
+  margin-bottom: 1.5rem;
+}
+
+.gist-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 0.75rem;
+}
+
+.gist-toggle {
+  cursor: pointer;
+  padding: 0.45rem 0.9rem;
+  border-radius: 0.35rem;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  color: #24292f;
+  font-size: 0.95rem;
+}
+
+.dark-theme .gist-toggle {
+  background: #161b22;
+  border-color: #30363d;
+  color: #c9d1d9;
+}
+
+.gist-content {
+  border: 1px solid #d0d7de;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.dark-theme .gist-content {
+  border-color: #30363d;
+  background: #0d1117;
+}
+
+.gist-iframe {
+  min-height: 260px;
+  width: 100%;
+  background: transparent;
+}
+
+.dark-theme .gist-iframe {
+  background: #0d1117;
+}

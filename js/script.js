@@ -114,10 +114,15 @@ function initGists() {
                     content.appendChild(iframe);
                     try {
                         const idoc = iframe.contentDocument || iframe.contentWindow.document;
+                        const isDarkMode = document.body.classList.contains('dark-theme');
+                        const iframeHtml = `<!DOCTYPE html><html><head><base target="_parent"><style>body{margin:0;background-color:${isDarkMode ? '#0d1117' : '#fff'};color:${isDarkMode ? '#c9d1d9' : '#24292f'};}.gist-file{background-color:${isDarkMode ? '#0d1117' : '#fff'} !important;border-color:${isDarkMode ? '#21262d' : '#ddd'} !important;}.gist-file .gist-meta{background-color:${isDarkMode ? '#111827' : '#f6f8fa'} !important;color:${isDarkMode ? '#9ca3af' : '#57606a'} !important;}.gist-file .gist-meta a{color:${isDarkMode ? '#8fbcff' : '#0366d6'} !important;}</style></head><body></body></html>`;
                         idoc.open();
-                        idoc.write('<base target="_parent">');
-                        idoc.write(`<script src="${gist.dataset.src}"></script>`);
+                        idoc.write(iframeHtml);
                         idoc.close();
+                        const gistScript = idoc.createElement('script');
+                        gistScript.src = gist.dataset.src;
+                        gistScript.async = true;
+                        idoc.body.appendChild(gistScript);
                     } catch (e) {
                         // Fallback: if iframe writing is blocked, append script directly (may still error)
                         const s = document.createElement('script');
