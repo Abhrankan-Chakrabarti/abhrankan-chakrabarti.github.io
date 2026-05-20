@@ -5,6 +5,23 @@
 
 <h3 align="center">A Passionate Student Exploring the Frontiers of Mathematics, Programming, and Technology</h3>
 
+<p align="center">
+  <a href="https://github.com/Abhrankan-Chakrabarti">
+    <img src="https://img.shields.io/github/followers/Abhrankan-Chakrabarti?label=Followers&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Abhrankan-Chakrabarti?tab=repositories">
+    <img src="https://img.shields.io/badge/Projects-Open%20Source-blue?style=for-the-badge" />
+  </a>
+  <a href="https://abhrankan.dpdns.org">
+    <img src="https://img.shields.io/badge/Blog-Mathematics%20%26%20Algorithms-black?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Abhrankan-Chakrabarti/Abhrankan-Chakrabarti/raw/main/Abhrankan_Chakrabarti_Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-Download%20PDF-red?style=for-the-badge&logo=adobe-acrobat-reader" />
+  </a>
+</p>
+
+---
+
 I'm on a thrilling journey through the realms of advanced numerical methods, algorithm design, and the fascinating history of ancient civilizations. My curiosity drives me to unravel the mysteries of mathematics and to craft elegant solutions to complex problems using programming.
 
 - 🔭 **Current Endeavor**: I'm diving deep into a Python project that aims to push the boundaries of numerical methods. This project is not just a test of my programming skills but also a canvas for my mathematical creativity.
@@ -15,7 +32,7 @@ I'm on a thrilling journey through the realms of advanced numerical methods, alg
 
 ### 📫 Connect with Me:
 
-- 🌐 [Visit My Website](https://abhrankan.w3spaces.com) for a deeper dive into my projects and interests.
+- 🌐 [Visit My Website](https://abhrankan.dpdns.org) for a deeper dive into my projects and interests.
 - 🔗 [Connect on LinkedIn](https://www.linkedin.com/in/abhrankan-chakrabarti-159460214/) to engage in professional discussions and collaborations.
 - 🐦 [Follow Me on Twitter](https://twitter.com/AbhrankanC) for updates on my latest adventures in coding and mathematics.
 - ✉️ Email me at [abhrankan@gmail.com](mailto:abhrankan@gmail.com) for inquiries, collaborations, or just to say hi!
@@ -24,99 +41,103 @@ I'm on a thrilling journey through the realms of advanced numerical methods, alg
 
 Did you know? I once embarked on a mathematical odyssey to calculate the first 10,000 digits of the golden ratio! It was a journey that tested the limits of precision and my dedication to the beauty of numbers.
 
+---
+
 ## 📚 Blog
 
-### [Calculating π with Catalan Numbers: A Novel Approach](https://abhrankan-chakrabarti.github.io/mathematics/algorithms/2024/06/21/calculating-pi)
+### [Calculating π with Catalan Numbers: A Novel Approach](https://abhrankan.dpdns.org/mathematics/algorithms/2024/06/21/calculating-pi)
 *Date: June 21, 2024*
 
 Calculating the digits of π has been a topic of interest for mathematicians and computer scientists alike. In this post, I introduce a novel algorithm for π calculation that leverages Catalan numbers and fixed-point arithmetic.
 
-### [Exploring Almost Isosceles Pythagorean Triples: An Ancient Mathematical Marvel](https://abhrankan-chakrabarti.github.io/mathematics/algorithms/2024/07/03/pythagorean-triples-exploration)
+### [Exploring Almost Isosceles Pythagorean Triples: An Ancient Mathematical Marvel](https://abhrankan.dpdns.org/mathematics/algorithms/2024/07/03/pythagorean-triples-exploration)
 *Date: July 3, 2024*
 
 Mathematics has always been a treasure trove of fascinating problems and elegant solutions. One such captivating concept is the almost isosceles Pythagorean triples. In this post, we will dive into what they are, their significance, and how they can be generated.
 
-### [Greek Mythology: Gods, Heroes, and Epic Tales](https://abhrankan-chakrabarti.github.io/mythology/2024/07/04/greek-mythology)
+### [Greek Mythology: Gods, Heroes, and Epic Tales](https://abhrankan.dpdns.org/mythology/2024/07/04/greek-mythology)
 *Date: July 4, 2024*
 
 Greek mythology is a rich tapestry of stories and characters that have captivated people for millennia. These myths offer insights into the ancient Greek worldview, their understanding of natural phenomena, and their cultural values. This section will explore some of the most significant gods, heroes, and myths from ancient Greece.
 
-### [Indian Mythology: Gods, Heroes, and Epic Tales](https://abhrankan-chakrabarti.github.io/mythology/2024/07/05/indian-mythology)
+### [Indian Mythology: Gods, Heroes, and Epic Tales](https://abhrankan.dpdns.org/mythology/2024/07/05/indian-mythology)
 *Date: July 5, 2024*
 
 Indian mythology is a rich and diverse collection of stories, traditions, and legends that have been passed down through generations in India. It includes a vast array of gods, goddesses, heroes, and mythical creatures, each with their own unique stories and significance. Indian mythology primarily draws from Hinduism but also includes influences from Buddhism, Jainism, and other regional traditions.
 
-### [Exploring Ancient Egyptian Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/05/ancient-egyptian-civilization)
+### [Exploring Ancient Egyptian Civilization](https://abhrankan.dpdns.org/history/2024/07/05/ancient-egyptian-civilization)
 *Date: July 5, 2024*
 
-Ancient Egypt is one of the most fascinating and influential civilizations in human history. Spanning over 3,000 years, from approximately 3100 BCE to 30 BCE, Egypt’s history is marked by remarkable achievements in architecture, art, science, and governance. The civilization flourished along the Nile River, which provided fertile land and resources necessary for sustaining a complex society.
+Ancient Egypt is one of the most fascinating and influential civilizations in human history. Spanning over 3,000 years, from approximately 3100 BCE to 30 BCE, Egypt's history is marked by remarkable achievements in architecture, art, science, and governance. The civilization flourished along the Nile River, which provided fertile land and resources necessary for sustaining a complex society.
 
-### [Exploring Ancient Greek Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-greek-civilization)
+### [Exploring Ancient Greek Civilization](https://abhrankan.dpdns.org/history/2024/07/06/ancient-greek-civilization)
 *Date: July 6, 2024*
 
 Ancient Greece, known for its influential culture, remarkable contributions to philosophy, science, and art, laid the foundations of Western civilization. Flourishing between the 8th century BCE and the end of antiquity (ca. 600 CE), Greek culture has profoundly shaped the world.
 
-### [Exploring Ancient Indian Civilization](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-indian-civilization)
+### [Exploring Ancient Indian Civilization](https://abhrankan.dpdns.org/history/2024/07/06/ancient-indian-civilization)
 *Date: July 6, 2024*
 
 Ancient India, with its rich tapestry of cultures and traditions, made significant contributions to various fields including mathematics, science, literature, and philosophy. The civilization flourished in the Indian subcontinent and has left an enduring legacy that continues to influence modern society.
 
-### [Exploring Ancient Egyptian Mythology](https://abhrankan-chakrabarti.github.io/history/2024/07/06/ancient-egyptian-mythology)
+### [Exploring Ancient Egyptian Mythology](https://abhrankan.dpdns.org/history/2024/07/06/ancient-egyptian-mythology)
 *Date: July 6, 2024*
 
 Ancient Egyptian mythology is a rich tapestry of gods, goddesses, and mythological tales that played a central role in the daily lives and spiritual beliefs of the ancient Egyptians. This mythology offers insights into their understanding of the cosmos, the afterlife, and the forces of nature.
 
-### [The History of Computers](https://abhrankan-chakrabarti.github.io/2024/07/06/the-history-of-computers)
+### [The History of Computers](https://abhrankan.dpdns.org/2024/07/06/the-history-of-computers)
 *Date: July 6, 2024*
 
 The history of computers is a fascinating journey that spans centuries, highlighting key innovations and milestones that have shaped modern computing.
 
-### [History of Mathematics](https://abhrankan-chakrabarti.github.io/2024/07/06/history-of-mathematics)
+### [History of Mathematics](https://abhrankan.dpdns.org/2024/07/06/history-of-mathematics)
 *Date: July 6, 2024*
 
 Mathematics has a rich and storied history, with roots that stretch back to the earliest civilizations. This section explores the key developments and figures in the history of mathematics, from ancient times to the modern era.
 
-### [Innovations in Technology](https://abhrankan-chakrabarti.github.io/2024/07/06/innovations-in-technology)
+### [Innovations in Technology](https://abhrankan.dpdns.org/2024/07/06/innovations-in-technology)
 *Date: July 6, 2024*
 
 Technological innovations have transformed the way we live, work, and communicate. Here are some of the key advancements that have significantly impacted our world.
 
-### [History of Physics](https://abhrankan-chakrabarti.github.io/2024/07/06/history-of-physics)
+### [History of Physics](https://abhrankan.dpdns.org/2024/07/06/history-of-physics)
 *Date: July 6, 2024*
 
 Physics, the fundamental science of matter, energy, and their interactions, has a long and rich history. Here are some key milestones and contributions from different periods.
 
-### [History of Chemistry](https://abhrankan-chakrabarti.github.io/2024/07/10/history-of-chemistry)
+### [History of Chemistry](https://abhrankan.dpdns.org/2024/07/10/history-of-chemistry)
 *Date: July 10, 2024*
 
 Chemistry, the scientific study of the properties, composition, and transformations of matter, has a rich and complex history. Here are some key milestones and contributions from different periods.
 
-### [History of Cryptography](https://abhrankan-chakrabarti.github.io/2024/07/10/history-of-cryptography.html)
+### [History of Cryptography](https://abhrankan.dpdns.org/2024/07/10/history-of-cryptography.html)
 *Date: July 10, 2024*
 
 The history of cryptography traces back to ancient times, evolving through centuries to become an essential component of modern secure communications. From simple substitution ciphers used by ancient civilizations to the sophisticated algorithms employed in today's digital world, cryptography has played a crucial role in protecting sensitive information.
 
-### [History of Astronomy](https://abhrankan-chakrabarti.github.io/2024/07/11/history-of-astronomy.html)
+### [History of Astronomy](https://abhrankan.dpdns.org/2024/07/11/history-of-astronomy.html)
 *Date: July 11, 2024*
 
 Astronomy, the study of celestial objects and phenomena, has fascinated humans for millennia. This section delves into the key developments and figures in the history of astronomy, from ancient civilizations to contemporary discoveries.
 
-### [History of Ancient Civilizations](https://abhrankan-chakrabarti.github.io/2024/07/12/history-of-ancient-civilizations.html)
+### [History of Ancient Civilizations](https://abhrankan.dpdns.org/2024/07/12/history-of-ancient-civilizations.html)
 *Date: July 12, 2024*
 
 The study of ancient civilizations reveals the rich and varied tapestry of human history. These civilizations laid the foundations for modern society through their innovations in governance, technology, and culture. This section delves into some of the most influential ancient civilizations.
 
-### [The Golden Ratio: A Mathematical Marvel](https://abhrankan-chakrabarti.github.io/2024/07/21/the-golden-ratio.html)
+### [The Golden Ratio: A Mathematical Marvel](https://abhrankan.dpdns.org/2024/07/21/the-golden-ratio.html)
 *Date: July 21, 2024*
 
 The Golden Ratio, often denoted by the Greek letter φ (phi), is a special number approximately equal to 1.618033988749895. This ratio has fascinated mathematicians, artists, and architects for centuries due to its unique properties and its frequent appearance in nature and human-made structures.
 
-### [The History of Mathematical Notation](https://abhrankan-chakrabarti.github.io/2024/07/21/the-history-of-mathematical-notation.html)
+### [The History of Mathematical Notation](https://abhrankan.dpdns.org/2024/07/21/the-history-of-mathematical-notation.html)
 *Date: July 21, 2024*
 
 Mathematical notation has evolved over millennia, reflecting the changing needs and understanding of mathematical concepts. The symbols and methods used to express mathematical ideas have greatly influenced how these ideas are developed, taught, and understood.
 
 <!-- Add more blog posts as needed -->
+
+---
 
 ### 📚 Highlighted Projects:
 
@@ -150,7 +171,7 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
   - `CSS`
   - `JavaScript`
 
-- **[Click Button Game](https://github.com/Abhrankan-Chakrabarti/ClickButtonGame)**: A simple, fun web game where players click a button as many times as possible within a set time limit. The game is implemented using HTML, CSS, and JavaScript. It’s an excellent project for beginners to practice their web development skills.
+- **[Click Button Game](https://github.com/Abhrankan-Chakrabarti/ClickButtonGame)**: A simple, fun web game where players click a button as many times as possible within a set time limit. The game is implemented using HTML, CSS, and JavaScript. It's an excellent project for beginners to practice their web development skills.
   - `game`
   - `click-button-game`
   - `HTML`
@@ -249,6 +270,8 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
   - `Python`
   - `numerical-calculations`
 
+---
+
 ## 🛠️ Skills
 
 - C/C++
@@ -260,4 +283,4 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
 
 ---
 
-© 2024 Abhrankan Chakrabarti. All rights reserved.
+© 2026 Abhrankan Chakrabarti. All rights reserved.
