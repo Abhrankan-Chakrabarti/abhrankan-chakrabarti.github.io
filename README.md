@@ -141,6 +141,21 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
 
 ### 📚 Highlighted Projects:
 
+- **[Winternship 2025 Case Studies](https://github.com/Abhrankan-Chakrabarti/Internship_caseStudies)**: Full MERN stack training across TypeScript, React (Vite), MongoDB, and Express.js. Includes deployed React apps, ACID-compliant MongoDB transactions, modular REST APIs, MVC pattern, and design patterns (Observer, Strategy).
+  - `TypeScript`
+  - `React`
+  - `Node.js`
+  - `Express`
+  - `MongoDB`
+  - `REST API`
+  - `full-stack`
+
+- **[LlamaInteract](https://github.com/Abhrankan-Chakrabarti/LlamaInteract)**: Local large language model interaction system built using llama.cpp for efficient on-device inference.
+  - `llama.cpp`
+  - `LLM`
+  - `on-device-inference`
+  - `Python`
+
 - **[Code Runner](https://github.com/Abhrankan-Chakrabarti/code-runner)**: A web-based tool for running JavaScript code directly in your browser.
   - `JavaScript`
   - `code-runner`
@@ -274,12 +289,15 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
 
 ## 🛠️ Skills
 
-- C/C++
-- Java
-- Python
-- HTML
-- CSS
-- JavaScript
+**Languages:** C, C++, Java, Python, TypeScript, JavaScript
+
+**Web & Backend:** HTML, CSS, React (Vite), Node.js, Express.js, REST APIs
+
+**Databases:** MongoDB (aggregation pipelines, ACID transactions)
+
+**AI / ML:** NumPy, Pandas, scikit-learn, Gemini Pro Vision, DALL-E 3, Stable Diffusion XL, llama.cpp
+
+**Tools & Practices:** Git, GitHub, Linux, VS Code, Jest, ESLint, MVC Pattern
 
 ---
 
