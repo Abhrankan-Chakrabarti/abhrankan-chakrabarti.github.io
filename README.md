@@ -301,4 +301,11 @@ Mathematical notation has evolved over millennia, reflecting the changing needs 
 
 ---
 
+## 🌐 Other Identities
+
+- [abhrankan](https://github.com/abhrankan) — Tor hidden services, ARGs
+- [foxhackerzdevs](https://github.com/foxhackerzdevs) — Security tools
+
+---
+
 © 2026 Abhrankan Chakrabarti. All rights reserved.
