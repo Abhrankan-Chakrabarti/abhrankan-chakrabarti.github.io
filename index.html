@@ -101,6 +101,12 @@
         .dark-theme .topic-badges img {
             filter: brightness(0.95);
         }
+        
+        /* Ensure contact / "Other identities" links are readable in dark mode */
+        .connect a, footer a { color: #0366d6; text-decoration: none; }
+        .connect a:hover, footer a:hover { text-decoration: underline; }
+        .dark-theme .connect a, .dark-theme footer a { color: #8fb3ff; }
+        .dark-theme .connect a:hover, .dark-theme footer a:hover { color: #ffffff; }
     </style>
 </head>
 <body>
